@@ -1,0 +1,62 @@
+<All keys matched successfully>
+[transformers] Detected the usage of `get_extended_attention_mask`: This function is deprecated and will be removed in v5.12.0. Please use the new API in `transformers.masking_utils`
+1/45 COST_001   correct   retrieval=hit  rank=1
+2/45 COST_002   correct   retrieval=hit  rank=1
+3/45 COST_003   partial   retrieval=hit  rank=1
+4/45 COST_004   correct   retrieval=hit  rank=1
+5/45 COST_005   partial   retrieval=hit  rank=1
+6/45 AAPL_001   correct   retrieval=hit  rank=1
+7/45 AAPL_002   correct   retrieval=hit  rank=1
+8/45 AAPL_003   correct   retrieval=hit  rank=1
+9/45 AAPL_004   correct   retrieval=hit  rank=1
+10/45 AAPL_005   partial   retrieval=hit  rank=1
+11/45 AMZN_001   correct   retrieval=hit  rank=1
+12/45 AMZN_002   correct   retrieval=hit  rank=1
+13/45 AMZN_003   partial   retrieval=hit  rank=1
+14/45 AMZN_004   correct   retrieval=hit  rank=1
+15/45 AMZN_005   partial   retrieval=hit  rank=1
+16/45 GOOGL_001  correct   retrieval=hit  rank=1
+17/45 GOOGL_002  correct   retrieval=hit  rank=1
+18/45 GOOGL_003  correct   retrieval=hit  rank=1
+19/45 GOOGL_004  correct   retrieval=hit  rank=1
+20/45 GOOGL_005  partial   retrieval=hit  rank=1
+21/45 NVDA_001   correct   retrieval=hit  rank=1
+22/45 NVDA_002   correct   retrieval=hit  rank=1
+23/45 NVDA_003   partial   retrieval=hit  rank=1
+24/45 NVDA_004   correct   retrieval=hit  rank=1
+25/45 NVDA_005   correct   retrieval=hit  rank=1
+26/45 MS_001     correct   retrieval=hit  rank=1
+27/45 MS_002     correct   retrieval=hit  rank=1
+28/45 MS_003     partial   retrieval=hit  rank=1
+29/45 MS_004     correct   retrieval=hit  rank=1
+30/45 MS_005     partial   retrieval=hit  rank=1
+31/45 GS_001     correct   retrieval=hit  rank=1
+32/45 GS_002     correct   retrieval=hit  rank=1
+33/45 GS_003     refused   retrieval=hit  rank=1
+34/45 GS_004     correct   retrieval=hit  rank=1
+35/45 GS_005     refused   retrieval=hit  rank=1
+36/45 V_001      correct   retrieval=hit  rank=1
+37/45 V_002      refused   retrieval=hit  rank=1
+38/45 V_003      correct   retrieval=hit  rank=1
+39/45 V_004      partial   retrieval=hit  rank=1
+40/45 V_005      partial   retrieval=hit  rank=1
+41/45 BAC_001    correct   retrieval=hit  rank=1
+42/45 BAC_002    correct   retrieval=hit  rank=1
+43/45 BAC_003    correct   retrieval=hit  rank=1
+44/45 BAC_004    partial   retrieval=hit  rank=1
+45/45 BAC_005    partial   retrieval=hit  rank=1
+
+============================================================
+success (strict)     : 64.4%  (29/45)
+success (+partial)   : 93.3%
+refused              : 6.7%
+retrieval hit@15     : 100.0%   MRR 1.0
+passage hit@15       : 83.7%   MRR 0.463   (n=43)
+coverage of GT set   : 100.0%  (45/45)
+
+by difficulty:
+  cross_section   11.1% acc   100.0% hit   (n=9)
+  cross_year      55.6% acc   100.0% hit   (n=9)
+  simple          85.2% acc   100.0% hit   (n=27)
+
+wrote eval-metrics.json, eval-results.json, groud-truth-answers.json

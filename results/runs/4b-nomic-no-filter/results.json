@@ -1,0 +1,1458 @@
+[
+  {
+    "id": "COST_001",
+    "ticker": "COST",
+    "difficulty": "simple",
+    "question": "What was Costco's net income including noncontrolling interests in fiscal 2024?",
+    "expected_answer": "$7,367 million",
+    "answer": "Costco's net income including noncontrolling interests in fiscal 2024 was $7,367 million. (Ticker: COST, Filing Date: September 1, 2024)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the net income figure and includes relevant context.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "COST|10-K|2023-10-11",
+        "COST|10-K|2024-10-09",
+        "COST|10-K|2025-10-08",
+        "COST|10-Q|2025-12-17",
+        "COST|10-Q|2026-03-11"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0
+    }
+  },
+  {
+    "id": "COST_002",
+    "ticker": "COST",
+    "difficulty": "simple",
+    "question": "What was Costco's total revenue in fiscal 2024?",
+    "expected_answer": "$254,453 million (net sales $249,625M plus membership fees)",
+    "answer": "Costco's total revenue in fiscal 2024 was $254,453 million. (Ticker: COST, Filing Date: September 1, 2024)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states Costco's total revenue in fiscal 2024 as $254,453 million.",
+    "numeric_recall": 0.5,
+    "figures_matched": 1,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 4,
+      "reciprocal_rank": 0.25,
+      "retrieved_filings": [
+        "COST|10-K|2023-10-11",
+        "COST|10-K|2024-10-09",
+        "COST|10-K|2025-10-08",
+        "COST|10-Q|2025-12-17"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 12,
+      "reciprocal_rank": 0.08333333333333333
+    }
+  },
+  {
+    "id": "COST_003",
+    "ticker": "COST",
+    "difficulty": "cross_year",
+    "question": "How did Costco's net income change from fiscal 2022 to fiscal 2024?",
+    "expected_answer": "It rose from $5,844M (2022) to $6,292M (2023) to $7,367M (2024)",
+    "answer": "Costco's net income increased from $5,915 million in fiscal 2022 to $6,292 million in fiscal 2023, and then to $7,367 million in fiscal 2024. \n\nTicker: COST\nFiling Date: September 3, 2023",
+    "verdict": "partial",
+    "judge_reason": "The net income for fiscal 2022 is incorrect; it should be $5,844 million instead of $5,915 million.",
+    "numeric_recall": 0.6666666666666666,
+    "figures_matched": 2,
+    "figures_expected": 3,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_filings": [
+        "COST|10-K|2023-10-11",
+        "COST|10-K|2024-10-09",
+        "COST|10-K|2025-10-08",
+        "COST|10-Q|2025-12-17",
+        "COST|10-Q|2026-03-11",
+        "COST|10-Q|2026-06-03"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "COST_004",
+    "ticker": "COST",
+    "difficulty": "simple",
+    "question": "How many warehouses did Costco operate worldwide as of September 1, 2024?",
+    "expected_answer": "890 warehouses",
+    "answer": "Costco operated 890 warehouses worldwide as of September 1, 2024 (COST, filing date not specified).",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the number of warehouses operated by Costco as of the specified date.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_filings": [
+        "COST|10-K|2023-10-11",
+        "COST|10-K|2024-10-09",
+        "COST|10-K|2025-10-08",
+        "COST|10-Q|2025-12-17",
+        "COST|10-Q|2026-03-11",
+        "COST|10-Q|2026-06-03"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "COST_005",
+    "ticker": "COST",
+    "difficulty": "cross_section",
+    "question": "What risk does Costco cite regarding its dependence on U.S. and Canadian operations?",
+    "expected_answer": "Costco states that its U.S. and Canadian operations comprised 86% of net sales and 85% of operating income in 2024, and within the U.S., California alone accounted for 27% of U.S. net sales. Any substantial slowing or sustained decline in these operations\u2014driven by factors like weak comparable sales, rising labor/healthcare/energy costs, missed warehouse opening targets, cannibalization, unfavorable sales mix shifts, or economic downturns\u2014could materially adversely affect its business and financial results.",
+    "answer": "Costco cites that its financial and operational performance is highly dependent on its U.S. and Canadian operations, which comprised 86% and 85% of net sales and operating income in 2024. This dependence could materially and adversely affect its business, financial condition, and results of operations. \n\nTicker: COST\nFiling Date: October 8, 2024",
+    "verdict": "partial",
+    "judge_reason": "The generated answer includes key figures but omits specific risks and factors that could lead to adverse effects.",
+    "numeric_recall": 0.6666666666666666,
+    "figures_matched": 2,
+    "figures_expected": 3,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "COST|10-K|2023-10-11",
+        "COST|10-K|2024-10-09",
+        "COST|10-K|2025-10-08"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "AAPL_001",
+    "ticker": "AAPL",
+    "difficulty": "simple",
+    "question": "What were Apple's total net sales in fiscal 2023?",
+    "expected_answer": "$383,285 million",
+    "answer": "Apple's total net sales in fiscal 2023 were $383,285 million. (Ticker: AAPL, Filing Date: 2023 Form 10-K)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the total net sales figure and includes relevant context.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "AAPL|10-K|2023-11-03",
+        "AAPL|10-K|2024-11-01",
+        "AAPL|10-K|2025-10-31",
+        "AAPL|10-Q|2026-01-30"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0
+    }
+  },
+  {
+    "id": "AAPL_002",
+    "ticker": "AAPL",
+    "difficulty": "simple",
+    "question": "What was Apple's net income in fiscal 2023?",
+    "expected_answer": "$96,995 million",
+    "answer": "Apple's net income in fiscal 2023 was $96,995 million. (Ticker: AAPL, Filing Date: September 30, 2023)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states Apple's net income for fiscal 2023.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 4,
+      "reciprocal_rank": 0.25,
+      "retrieved_filings": [
+        "AAPL|10-K|2023-11-03",
+        "AAPL|10-K|2024-11-01",
+        "AAPL|10-K|2025-10-31",
+        "AAPL|10-Q|2026-01-30",
+        "AAPL|10-Q|2026-05-01",
+        "AAPL|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "AAPL_003",
+    "ticker": "AAPL",
+    "difficulty": "cross_year",
+    "question": "What was Apple's operating income in fiscal 2023 versus 2022?",
+    "expected_answer": "$114,301M in 2023 versus $119,437M in 2022",
+    "answer": "Apple's operating income in fiscal 2023 was $114,301 million, compared to $119,437 million in fiscal 2022. \n\nTicker: AAPL, Filing Date: September 30, 2023.",
+    "verdict": "correct",
+    "judge_reason": "All key figures are present and accurately stated.",
+    "numeric_recall": 1.0,
+    "figures_matched": 2,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "AAPL|10-K|2023-11-03",
+        "AAPL|10-K|2024-11-01",
+        "AAPL|10-K|2025-10-31"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 4,
+      "reciprocal_rank": 0.25
+    }
+  },
+  {
+    "id": "AAPL_004",
+    "ticker": "AAPL",
+    "difficulty": "simple",
+    "question": "What were Apple's net sales in Greater China in fiscal 2023?",
+    "expected_answer": "$72,559 million",
+    "answer": "Apple's net sales in Greater China in fiscal 2023 were $72,559 million. (Ticker: AAPL, Filing Date: September 30, 2023)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the net sales figure for Apple in Greater China in fiscal 2023.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "AAPL|10-K|2023-11-03",
+        "AAPL|10-K|2024-11-01",
+        "AAPL|10-K|2025-10-31",
+        "AAPL|10-Q|2026-05-01",
+        "AAPL|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 10,
+      "reciprocal_rank": 0.1
+    }
+  },
+  {
+    "id": "AAPL_005",
+    "ticker": "AAPL",
+    "difficulty": "cross_section",
+    "question": "What does Apple identify as risks related to its dependence on third-party manufacturing partners?",
+    "expected_answer": "Apple states that substantially all of its manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan, and Vietnam \u2014 often a small number of partners concentrated in single locations. It relies on single-source outsourcing partners for many components and for final assembly of substantially all hardware products, so any failure of these partners can negatively affect the cost or supply of components and finished goods. Outsourcing reduces Apple's direct control over production and distribution, which can adversely affect product quality, quantity, and its flexibility to respond to changing conditions. Apple has also invested in manufacturing equipment held at partners' facilities and made prepayments under long-term supply agreements, which could be impaired if those partners face financial or operational disruption.",
+    "answer": "Apple identifies several risks related to its dependence on third-party manufacturing partners, including:\n\n1. Violations of the supplier code of conduct, which can adversely affect the Company's business, reputation, results of operations, and financial condition (Apple Inc. | 2023 Form 10-K | 7).\n2. Significant risks of supply shortages and price increases that can materially adversely affect its business, results of operations, financial condition, and stock price (Apple Inc. | 2025 Form 10-K | 8).\n3. Business interruptions affecting sources of critical components, which could exacerbate negative consequences for the Company (Apple Inc. | 2024 Form 10-K | 6).\n\nThese risks highlight the potential operational disruptions and financial impacts stemming from reliance on third-party partners.",
+    "verdict": "partial",
+    "judge_reason": "The generated answer mentions some risks but omits key details about reliance on single-source partners and the implications of outsourcing.",
+    "numeric_recall": null,
+    "figures_matched": 0,
+    "figures_expected": 0,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333,
+      "retrieved_filings": [
+        "AAPL|10-K|2023-11-03",
+        "AAPL|10-K|2024-11-01",
+        "AAPL|10-K|2025-10-31",
+        "AAPL|10-Q|2026-05-01",
+        "AAPL|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": null,
+      "rank": null,
+      "reciprocal_rank": null
+    }
+  },
+  {
+    "id": "AMZN_001",
+    "ticker": "AMZN",
+    "difficulty": "simple",
+    "question": "What were Amazon's total net sales in 2023?",
+    "expected_answer": "$574,785 million",
+    "answer": "Amazon's total net sales in 2023 were $574,785 million. (Ticker: AMZN, Filing Date: December 31, 2023)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states Amazon's total net sales in 2023.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_filings": [
+        "AMZN|10-K|2024-02-02",
+        "AMZN|10-K|2025-02-07",
+        "AMZN|10-K|2026-02-06",
+        "AMZN|10-Q|2025-10-31",
+        "AMZN|10-Q|2026-04-30",
+        "AMZN|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0
+    }
+  },
+  {
+    "id": "AMZN_002",
+    "ticker": "AMZN",
+    "difficulty": "simple",
+    "question": "What was Amazon's net income in 2023?",
+    "expected_answer": "$30,425 million",
+    "answer": "Amazon's net income in 2023 was $30,425 million. (Ticker: AMZN, Filing Date: December 31, 2023)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states Amazon's net income in 2023.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "AMZN|10-K|2024-02-02",
+        "AMZN|10-K|2025-02-07",
+        "AMZN|10-K|2026-02-06",
+        "AMZN|10-Q|2025-10-31",
+        "AMZN|10-Q|2026-04-30",
+        "AMZN|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "AMZN_003",
+    "ticker": "AMZN",
+    "difficulty": "cross_year",
+    "question": "What was Amazon's other income (expense), net in 2023 versus 2022?",
+    "expected_answer": "$14,633M income in 2023 versus $(16,806)M expense in 2022",
+    "answer": "Amazon's other income (expense), net was -$16,806 million in 2022 and $938 million in 2023. \n\nTicker: AMZN, Filing Date: December 31, 2023.",
+    "verdict": "partial",
+    "judge_reason": "The generated answer provides the 2022 figure correctly but misstates the 2023 figure.",
+    "numeric_recall": 0.5,
+    "figures_matched": 1,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "AMZN|10-K|2024-02-02",
+        "AMZN|10-K|2025-02-07",
+        "AMZN|10-K|2026-02-06",
+        "AMZN|10-Q|2025-10-31",
+        "AMZN|10-Q|2026-04-30"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 9,
+      "reciprocal_rank": 0.1111111111111111
+    }
+  },
+  {
+    "id": "AMZN_004",
+    "ticker": "AMZN",
+    "difficulty": "simple",
+    "question": "What were Amazon's AWS segment net sales in 2023?",
+    "expected_answer": "AWS net sales were $90,757 million in 2023.",
+    "answer": "Amazon's AWS segment net sales in 2023 were $90,757 million. (Ticker: Not provided, Filing Date: Not provided)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the AWS net sales figure as expected.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "AMZN|10-K|2024-02-02",
+        "AMZN|10-K|2025-02-07",
+        "AMZN|10-K|2026-02-06",
+        "AMZN|10-Q|2025-10-31",
+        "AMZN|10-Q|2026-04-30",
+        "AMZN|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "AMZN_005",
+    "ticker": "AMZN",
+    "difficulty": "cross_section",
+    "question": "What risks does Amazon disclose about intense competition across its business segments?",
+    "expected_answer": "Amazon discloses that its businesses are rapidly evolving and intensely competitive across many geographies and industries (physical/e-commerce/omnichannel retail, e-commerce services, web and infrastructure computing, electronic devices, digital content, advertising, grocery, transportation/logistics). Some competitors have greater resources, longer histories, more customers, better brand recognition, and may secure better vendor terms, adopt more aggressive pricing, and invest more in technology, infrastructure, fulfillment, and marketing. Competition is intensifying via new business models, well-funded entrants, business combinations, and enhanced technologies (search, cloud, AI/ML, digital content, devices). The internet facilitates comparison shopping and easier competitive entry. As a result, offerings may fail, business may be lost, and Amazon may need to increase spending or lower prices, materially reducing sales and profits.",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer does not provide any information and states that it doesn't know.",
+    "numeric_recall": null,
+    "figures_matched": 0,
+    "figures_expected": 0,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_filings": [
+        "AMZN|10-K|2024-02-02",
+        "AMZN|10-K|2025-02-07",
+        "AMZN|10-K|2026-02-06",
+        "AMZN|10-Q|2025-10-31",
+        "AMZN|10-Q|2026-04-30",
+        "AMZN|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": null,
+      "rank": null,
+      "reciprocal_rank": null
+    }
+  },
+  {
+    "id": "GOOGL_001",
+    "ticker": "GOOGL",
+    "difficulty": "simple",
+    "question": "What was Alphabet's total revenue in 2024?",
+    "expected_answer": "$350,018 million",
+    "answer": "Alphabet's total revenue in 2024 was $350,018 million. (Ticker: GOOGL, Filing Date: December 31, 2024)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the total revenue and matches the expected figure.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "GOOGL|10-K|2024-01-31",
+        "GOOGL|10-K|2025-02-05",
+        "GOOGL|10-K|2026-02-05",
+        "GOOGL|10-Q|2025-10-30",
+        "GOOGL|10-Q|2026-04-30",
+        "GOOGL|10-Q|2026-07-23"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0
+    }
+  },
+  {
+    "id": "GOOGL_002",
+    "ticker": "GOOGL",
+    "difficulty": "simple",
+    "question": "What was Alphabet's net income in 2024?",
+    "expected_answer": "$100,118 million",
+    "answer": "Alphabet's net income in 2024 was $100,118 million. (Ticker: GOOGL, Filing Date: December 31, 2024)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the net income figure and includes relevant context.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "GOOGL|10-K|2024-01-31",
+        "GOOGL|10-K|2025-02-05",
+        "GOOGL|10-K|2026-02-05",
+        "GOOGL|10-Q|2025-10-30",
+        "GOOGL|10-Q|2026-04-30",
+        "GOOGL|10-Q|2026-07-23"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0
+    }
+  },
+  {
+    "id": "GOOGL_003",
+    "ticker": "GOOGL",
+    "difficulty": "cross_year",
+    "question": "How did Alphabet's total revenue change from 2023 to 2024?",
+    "expected_answer": "It grew from $307,394M to $350,018M, an increase of $42,624M (14%)",
+    "answer": "Alphabet's total revenue increased from $307,394 million in 2023 to $350,018 million in 2024. This represents an increase of $42,624 million. \n\nTicker: GOOGL, Filing Date: December 31, 2024.",
+    "verdict": "partial",
+    "judge_reason": "The generated answer is missing the percentage increase of 14%.",
+    "numeric_recall": 0.75,
+    "figures_matched": 3,
+    "figures_expected": 4,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "GOOGL|10-K|2024-01-31",
+        "GOOGL|10-K|2025-02-05",
+        "GOOGL|10-K|2026-02-05",
+        "GOOGL|10-Q|2025-10-30",
+        "GOOGL|10-Q|2026-04-30",
+        "GOOGL|10-Q|2026-07-23"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333
+    }
+  },
+  {
+    "id": "GOOGL_004",
+    "ticker": "GOOGL",
+    "difficulty": "simple",
+    "question": "What was Alphabet's cost of revenues in 2024?",
+    "expected_answer": "$146,306 million",
+    "answer": "Alphabet's cost of revenues in 2024 was $146,306 million. (Ticker: GOOGL, Filing Date: December 31, 2024)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the cost of revenues and includes relevant details.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "GOOGL|10-K|2024-01-31",
+        "GOOGL|10-K|2025-02-05",
+        "GOOGL|10-K|2026-02-05",
+        "GOOGL|10-Q|2025-10-30",
+        "GOOGL|10-Q|2026-04-30",
+        "GOOGL|10-Q|2026-07-23"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "GOOGL_005",
+    "ticker": "GOOGL",
+    "difficulty": "cross_section",
+    "question": "What does Alphabet say about risks from AI and regulatory scrutiny?",
+    "expected_answer": "Alphabet describes AI as subject to rapidly evolving and uncertain regulation \u2014 citing the EU AI Act (in force August 1, 2024, fully applicable after a two-year transition), U.S. federal uncertainty, and various state-level laws targeting AI use, consumer protection, and deepfakes/synthetic media \u2014 which could result in monetary penalties or other regulatory actions. It notes that its development and commercialization of AI products, and increased use of AI in its offerings and internal systems, may create new avenues for abuse, expose it to litigation (including over AI training, development, and commercialization), and interact with uncertain safe-harbor protections. It frames these alongside broader regulatory and legal exposure that could harm its business, reputation, financial condition, and operating results.",
+    "answer": "Alphabet Inc. states that issues in the development and use of AI may result in reputational harm and increased liability exposure. Their evolving AI-related efforts could give rise to risks related to harmful content, inaccuracies, discrimination, intellectual property infringement, defamation, data privacy, cybersecurity, and other issues. The company is subject to regulatory action and legal liability under specific legislation regulating AI, as well as new applications of existing data protection, cybersecurity, privacy, intellectual property, and other laws. They also mention that increased regulatory scrutiny could lead to legal and regulatory investigations and enforcement actions that could harm their business, even if unfounded. \n\nTicker: GOOGL, Filing Date: Not specified in the context.",
+    "verdict": "partial",
+    "judge_reason": "The generated answer captures some risks but lacks specific references to the EU AI Act and the broader regulatory context mentioned in the expected answer.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 1,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 7,
+      "reciprocal_rank": 0.14285714285714285,
+      "retrieved_filings": [
+        "GOOGL|10-K|2024-01-31",
+        "GOOGL|10-K|2025-02-05",
+        "GOOGL|10-K|2026-02-05"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333
+    }
+  },
+  {
+    "id": "NVDA_001",
+    "ticker": "NVDA",
+    "difficulty": "simple",
+    "question": "What was NVIDIA's revenue in fiscal 2026?",
+    "expected_answer": "$215,938 million",
+    "answer": "NVIDIA's revenue in fiscal year 2026 was $215.9 billion. (Ticker: NVDA, Filing Date: April 26, 2026)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states NVIDIA's revenue in fiscal 2026 and uses an acceptable unit conversion.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 4,
+      "reciprocal_rank": 0.25,
+      "retrieved_filings": [
+        "NVDA|10-K|2024-02-21",
+        "NVDA|10-K|2025-02-26",
+        "NVDA|10-K|2026-02-25",
+        "NVDA|10-Q|2025-08-27",
+        "NVDA|10-Q|2025-11-19",
+        "NVDA|10-Q|2026-05-20"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "NVDA_002",
+    "ticker": "NVDA",
+    "difficulty": "simple",
+    "question": "What was NVIDIA's net income in fiscal 2026?",
+    "expected_answer": "$120,067 million",
+    "answer": "NVIDIA's net income in fiscal 2026 was $120,067 million. (Ticker: NVDA, Filing Date: January 25, 2026)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states NVIDIA's net income in fiscal 2026.",
+    "numeric_recall": 1.0,
+    "figures_matched": 1,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333,
+      "retrieved_filings": [
+        "NVDA|10-K|2024-02-21",
+        "NVDA|10-K|2025-02-26",
+        "NVDA|10-K|2026-02-25",
+        "NVDA|10-Q|2025-08-27",
+        "NVDA|10-Q|2025-11-19",
+        "NVDA|10-Q|2026-05-20"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333
+    }
+  },
+  {
+    "id": "NVDA_003",
+    "ticker": "NVDA",
+    "difficulty": "cross_year",
+    "question": "How did NVIDIA's net income change from fiscal 2025 to fiscal 2026?",
+    "expected_answer": "It rose from $72,880M to $120,067M, up 65%",
+    "answer": "NVIDIA's net income increased from $72,880 million in fiscal 2025 to $120,067 million in fiscal 2026. \n\nTicker: NVDA, Filing Date: Jan 25, 2026.",
+    "verdict": "partial",
+    "judge_reason": "The generated answer provides the correct figures but omits the percentage increase.",
+    "numeric_recall": 0.6666666666666666,
+    "figures_matched": 2,
+    "figures_expected": 3,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333,
+      "retrieved_filings": [
+        "NVDA|10-K|2024-02-21",
+        "NVDA|10-K|2025-02-26",
+        "NVDA|10-K|2026-02-25",
+        "NVDA|10-Q|2025-11-19",
+        "NVDA|10-Q|2026-05-20"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 6,
+      "reciprocal_rank": 0.16666666666666666
+    }
+  },
+  {
+    "id": "NVDA_004",
+    "ticker": "NVDA",
+    "difficulty": "simple",
+    "question": "What was NVIDIA's operating income in fiscal 2026?",
+    "expected_answer": "$130,387 million (up 60%)",
+    "answer": "NVIDIA's operating income in fiscal 2026 was $139,297 million. (Ticker: NVDA, Filing Date: January 25, 2026)",
+    "verdict": "incorrect",
+    "judge_reason": "The generated answer states an operating income of $139,297 million, which contradicts the expected answer of $130,387 million.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_filings": [
+        "NVDA|10-K|2024-02-21",
+        "NVDA|10-K|2026-02-25",
+        "NVDA|10-Q|2025-08-27",
+        "NVDA|10-Q|2025-11-19",
+        "NVDA|10-Q|2026-05-20"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "NVDA_005",
+    "ticker": "NVDA",
+    "difficulty": "cross_section",
+    "question": "By how much did NVIDIA's Data Center networking revenue grow in fiscal 2026, and what drove it?",
+    "expected_answer": "Data Center networking grew 142%, driven by the introduction and ramp of NVLink (Compute & Networking revenue rose 58% to $87,960M)",
+    "answer": "NVIDIA's Data Center networking revenue grew 133% in fiscal year 2026, driven by higher shipments of InfiniBand. (Ticker: NVIDIA, Filing Date: Not specified)",
+    "verdict": "partial",
+    "judge_reason": "The growth percentage is incorrect, and the expected revenue figure is missing.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 3,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 4,
+      "reciprocal_rank": 0.25,
+      "retrieved_filings": [
+        "NVDA|10-K|2024-02-21",
+        "NVDA|10-K|2025-02-26",
+        "NVDA|10-K|2026-02-25",
+        "NVDA|10-Q|2025-08-27",
+        "NVDA|10-Q|2025-11-19",
+        "NVDA|10-Q|2026-05-20"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "MS_001",
+    "ticker": "MS",
+    "difficulty": "simple",
+    "question": "What were Morgan Stanley's total net revenues in 2024?",
+    "expected_answer": "$61,761 million",
+    "answer": "Morgan Stanley's total net revenues in 2024 were $61.8 billion. (Ticker: MS, Filing Date: December 2024 Form 10-K)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately reflects the total net revenues in a different unit.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 1,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "MS|10-K|2024-02-22",
+        "MS|10-K|2025-02-21",
+        "MS|10-K|2026-02-19",
+        "MS|10-Q|2025-11-03",
+        "MS|10-Q|2026-05-05",
+        "MS|10-Q|2026-08-04"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 13,
+      "reciprocal_rank": 0.07692307692307693
+    }
+  },
+  {
+    "id": "MS_002",
+    "ticker": "MS",
+    "difficulty": "cross_year",
+    "question": "How did Morgan Stanley's net revenues change from 2023 to 2024?",
+    "expected_answer": "They rose from $54,143M (2023) to $61,761M (2024)",
+    "answer": "Morgan Stanley's net revenues increased by 14% from 2023 to 2024, rising from $54.1 billion in 2023 to $61.8 billion in 2024. \n\nTicker: MS, Filing Date: December 2024 Form 10-K.",
+    "verdict": "correct",
+    "judge_reason": "All key figures are present and accurately stated.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "MS|10-K|2024-02-22",
+        "MS|10-K|2025-02-21",
+        "MS|10-K|2026-02-19",
+        "MS|10-Q|2025-11-03",
+        "MS|10-Q|2026-05-05",
+        "MS|10-Q|2026-08-04"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 6,
+      "reciprocal_rank": 0.16666666666666666
+    }
+  },
+  {
+    "id": "MS_003",
+    "ticker": "MS",
+    "difficulty": "cross_section",
+    "question": "What net revenues did Morgan Stanley's Wealth Management segment deliver in 2024?",
+    "expected_answer": "$28.4 billion, with a pre-tax margin of 27.2%",
+    "answer": "Morgan Stanley's Wealth Management segment delivered net revenues of $28,420 million in 2024. (Ticker: MS, Filing Date: December 2024 Form 10-K)",
+    "verdict": "partial",
+    "judge_reason": "The generated answer provides the net revenue figure but omits the pre-tax margin.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5,
+      "retrieved_filings": [
+        "MS|10-K|2024-02-22",
+        "MS|10-K|2025-02-21",
+        "MS|10-K|2026-02-19",
+        "MS|10-Q|2025-11-03",
+        "MS|10-Q|2026-05-05",
+        "MS|10-Q|2026-08-04"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333
+    }
+  },
+  {
+    "id": "MS_004",
+    "ticker": "MS",
+    "difficulty": "simple",
+    "question": "What net revenues did Morgan Stanley's Investment Management segment report in 2024?",
+    "expected_answer": "$5.9 billion",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer states it doesn't know the information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 1,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "MS|10-K|2024-02-22",
+        "MS|10-K|2025-02-21",
+        "MS|10-K|2026-02-19",
+        "MS|10-Q|2025-11-03",
+        "MS|10-Q|2026-05-05",
+        "MS|10-Q|2026-08-04"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "MS_005",
+    "ticker": "MS",
+    "difficulty": "simple",
+    "question": "What was Morgan Stanley's net income applicable to Morgan Stanley in 2024?",
+    "expected_answer": "Morgan Stanley's net income applicable to Morgan Stanley in 2024 was $13,390 million ($13.4 billion).`",
+    "answer": "Morgan Stanley's net income applicable to Morgan Stanley in 2024 was $13.4 billion. (Ticker: MS, Filing Date: December 2024 Form 10-K)",
+    "verdict": "partial",
+    "judge_reason": "The generated answer provides the correct net income figure but omits the specific mention of 'million' and the filing details.",
+    "numeric_recall": 0.5,
+    "figures_matched": 1,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "MS|10-K|2024-02-22",
+        "MS|10-K|2025-02-21",
+        "MS|10-K|2026-02-19",
+        "MS|10-Q|2025-11-03",
+        "MS|10-Q|2026-05-05",
+        "MS|10-Q|2026-08-04"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0
+    }
+  },
+  {
+    "id": "GS_001",
+    "ticker": "GS",
+    "difficulty": "simple",
+    "question": "What were Goldman Sachs' total net revenues in the first quarter of 2026?",
+    "expected_answer": "$17,227 million",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer states it doesn't know the information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 1,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "GS|10-K|2026-02-25",
+        "GS|10-Q|2025-10-31",
+        "GS|10-Q|2026-05-01",
+        "GS|10-Q|2026-08-03"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "GS_002",
+    "ticker": "GS",
+    "difficulty": "cross_year",
+    "question": "How did Goldman Sachs' Q1 total net revenues compare to the prior-year quarter?",
+    "expected_answer": "$17,227M versus $15,062M in the prior-year quarter",
+    "answer": "Goldman Sachs' total net revenues for Q1 2026 were $16.82 billion, which is 15% higher than the first quarter of 2025. (Ticker: GS, Filing Date: March 2026)",
+    "verdict": "partial",
+    "judge_reason": "The generated answer provides a revenue figure but does not match the expected figures or provide the prior-year comparison.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "GS|10-K|2025-02-27",
+        "GS|10-K|2026-02-25",
+        "GS|10-Q|2025-10-31",
+        "GS|10-Q|2026-05-01",
+        "GS|10-Q|2026-08-03"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "GS_003",
+    "ticker": "GS",
+    "difficulty": "cross_section",
+    "question": "What were Goldman Sachs' Fixed Income net revenues in 2025 and what drove the change?",
+    "expected_answer": "$8,716 million, up 4%, reflecting increases in Global macro and Credit products, partly offset by lower Commodities",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The answer does not provide any information or figures related to the question.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333,
+      "retrieved_filings": [
+        "GS|10-K|2025-02-27",
+        "GS|10-K|2026-02-25",
+        "GS|10-Q|2025-10-31",
+        "GS|10-Q|2026-05-01",
+        "GS|10-Q|2026-08-03"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 2,
+      "reciprocal_rank": 0.5
+    }
+  },
+  {
+    "id": "GS_004",
+    "ticker": "GS",
+    "difficulty": "simple",
+    "question": "What were Goldman Sachs' total pre-tax earnings for the Americas region in Q1 2026?",
+    "expected_answer": "$4,119 million (63% of total)",
+    "answer": "Goldman Sachs' total pre-tax earnings for the Americas region in Q1 2026 were $4,119 million. (Ticker: GS, Filing Date: March 2026 Form 10-Q)",
+    "verdict": "correct",
+    "judge_reason": "The generated answer accurately states the total pre-tax earnings for the Americas region as $4,119 million.",
+    "numeric_recall": 0.5,
+    "figures_matched": 1,
+    "figures_expected": 2,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "GS|10-K|2025-02-27",
+        "GS|10-K|2026-02-25",
+        "GS|10-Q|2025-10-31",
+        "GS|10-Q|2026-05-01",
+        "GS|10-Q|2026-08-03"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 4,
+      "reciprocal_rank": 0.25
+    }
+  },
+  {
+    "id": "GS_005",
+    "ticker": "GS",
+    "difficulty": "cross_year",
+    "question": "What were Goldman Sachs' Other net revenues in 2025 versus the prior year?",
+    "expected_answer": "$1,114 million in 2025 versus $1,262 million prior year",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer states it doesn't know the information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 5,
+      "reciprocal_rank": 0.2,
+      "retrieved_filings": [
+        "GS|10-K|2025-02-27",
+        "GS|10-K|2026-02-25",
+        "GS|10-Q|2025-10-31",
+        "GS|10-Q|2026-05-01",
+        "GS|10-Q|2026-08-03"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "V_001",
+    "ticker": "V",
+    "difficulty": "simple",
+    "question": "What was Visa's net income in the quarter ended June 30, 2026?",
+    "expected_answer": "$5,628 million (versus $5,272M prior-year quarter)",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer states it doesn't know the information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 1,
+      "reciprocal_rank": 1.0,
+      "retrieved_filings": [
+        "V|10-K|2023-11-15",
+        "V|10-K|2024-11-13",
+        "V|10-K|2025-11-06",
+        "V|10-Q|2026-01-30",
+        "V|10-Q|2026-04-29",
+        "V|10-Q|2026-07-29"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "V_002",
+    "ticker": "V",
+    "difficulty": "simple",
+    "question": "What was Visa's income before income taxes in the quarter ended June 30, 2026?",
+    "expected_answer": "$6,833 million (versus $6,333M prior-year quarter)",
+    "answer": "I don't know. \n\nTicker: V, Filing Date: September 30, 2023.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer states it doesn't know the information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 7,
+      "reciprocal_rank": 0.14285714285714285,
+      "retrieved_filings": [
+        "V|10-K|2023-11-15",
+        "V|10-K|2024-11-13",
+        "V|10-K|2025-11-06",
+        "V|10-Q|2026-04-29",
+        "V|10-Q|2026-07-29"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "V_003",
+    "ticker": "V",
+    "difficulty": "simple",
+    "question": "What was Visa's total non-operating income (expense) in the quarter ended June 30, 2026?",
+    "expected_answer": "$(44) million (versus $156M prior-year quarter)",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer declines to provide any information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333,
+      "retrieved_filings": [
+        "V|10-K|2023-11-15",
+        "V|10-K|2024-11-13",
+        "V|10-K|2025-11-06",
+        "V|10-Q|2026-01-30",
+        "V|10-Q|2026-04-29",
+        "V|10-Q|2026-07-29"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 14,
+      "reciprocal_rank": 0.07142857142857142
+    }
+  },
+  {
+    "id": "V_004",
+    "ticker": "V",
+    "difficulty": "simple",
+    "question": "What were Visa's net revenues for the quarter ended June 30, 2026?",
+    "expected_answer": "Visa's net revenue for the quarter ended June 30, 2026 was $11,633 million (~$11.6 billion), up 14% from $10,172 million in the prior-year quarter.",
+    "answer": "Visa's net revenues for the quarter ended June 30, 2026, were $11.633 billion. (Ticker: V, Filing Date: September 30, 2023)",
+    "verdict": "partial",
+    "judge_reason": "The generated answer provides the net revenue figure but omits the year-over-year comparison and the exact prior-year figure.",
+    "numeric_recall": 0.2,
+    "figures_matched": 1,
+    "figures_expected": 5,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333,
+      "retrieved_filings": [
+        "V|10-K|2023-11-15",
+        "V|10-K|2024-11-13",
+        "V|10-K|2025-11-06",
+        "V|10-Q|2026-04-29",
+        "V|10-Q|2026-07-29"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 5,
+      "reciprocal_rank": 0.2
+    }
+  },
+  {
+    "id": "V_005",
+    "ticker": "V",
+    "difficulty": "cross_section",
+    "question": "What risks does Visa disclose about settlement and payment network operations?",
+    "expected_answer": "Visa discloses the following about settlement and payment network risks in this 10-Q: **Settlement risk (Note 9 \u2014 Settlement Guarantee Management):** - Visa indemnifies issuing and acquiring clients for settlement losses if another client fails to fund its settlement obligations under Visa's operating rules. This creates settlement risk due to the timing difference between the payment transaction date and the settlement date. - Settlement exposure is limited to unsettled Visa payment transactions at any point in time and varies significantly day to day. - For the nine months ended June 30, 2026, maximum daily settlement exposure was **$168.6 billion** and average daily exposure was **$99.5 billion**. - Future obligations under the guarantees could be material but are not determinable, as they depend on future events. **Risk mitigation:** - Visa maintains and regularly reviews global settlement risk policies and procedures. - Clients may be required to post collateral (restricted cash, letters of credit, guarantees, pledged securities, beneficial rights to trust assets) if certain credit standards are not met. - Total collateral held was **$9.5 billion** as of June 30, 2026 (vs. $8.8 billion at September 30, 2025). - Historically, Visa has experienced minimal losses from its settlement risk guarantee. **Regulatory development affecting network operations (Brazil):** - The Central Bank of Brazil has mandated enhanced requirements for payments networks. Visa submitted enhanced operating rule provisions that will require it to extend settlement guarantees to sellers. - Once approved, settlement exposure is expected to increase, and Visa is reassessing its collateral requirements and risk mitigation framework. **Broader risk factors:** For enterprise-wide risks about payment network operations (cybersecurity, competition, technology, etc.), the 10-Q's Item 1A refers readers to the Risk Factors section of Visa's FY2025 Form 10-K rather than restating them.",
+    "answer": "Visa discloses several risks related to settlement and payment network operations, including:\n\n1. **Settlement Risk**: Visa indemnifies issuers and acquirers for settlement losses due to failures of other clients to honor their settlement obligations. This creates settlement risk due to the timing difference between payment transactions and subsequent settlements.\n\n2. **Liquidity Risk**: Changes in the credit standing of clients or concurrent settlement failures or insolvencies involving major clients or sponsor banks could expose Visa to liquidity risk, negatively impacting its financial position.\n\n3. **Indemnification Exposure**: Visa's indemnification exposure is generally limited to unsettled Visa card payment transactions at any point in time, but future obligations could be material and are not determinable as they depend on future events.\n\n4. **Technological Changes**: The rapid technological changes in the payments industry could harm Visa's business and impact future growth.\n\n5. **Cybersecurity Threats**: Visa faces numerous and evolving cybersecurity threats, including advanced cyber-attacks and insider threats, which could compromise data integrity and lead to financial losses.\n\nThese risks could significantly disrupt Visa's operations, impact clients and consumers, damage its reputation, and result in litigation or regulatory scrutiny. \n\nThe relevant ticker is V, and the filing date is not specified in the provided context.",
+    "verdict": "partial",
+    "judge_reason": "The generated answer includes some relevant risks but omits key figures and specific details from the expected answer.",
+    "numeric_recall": 0.125,
+    "figures_matched": 1,
+    "figures_expected": 8,
+    "refusal_phrase": false,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 4,
+      "reciprocal_rank": 0.25,
+      "retrieved_filings": [
+        "V|10-K|2023-11-15",
+        "V|10-K|2024-11-13",
+        "V|10-K|2025-11-06",
+        "V|10-Q|2026-01-30",
+        "V|10-Q|2026-04-29",
+        "V|10-Q|2026-07-29"
+      ]
+    },
+    "passage": {
+      "hit": true,
+      "rank": 3,
+      "reciprocal_rank": 0.3333333333333333
+    }
+  },
+  {
+    "id": "BAC_001",
+    "ticker": "BAC",
+    "difficulty": "simple",
+    "question": "What was Bank of America's net interest income in Q1 2026?",
+    "expected_answer": "$15,745 million (versus $14,443M prior-year quarter)",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer declines to provide any information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 14,
+      "reciprocal_rank": 0.07142857142857142,
+      "retrieved_filings": [
+        "BAC|10-K|2024-02-20",
+        "BAC|10-K|2025-02-25",
+        "BAC|10-K|2026-02-25",
+        "BAC|10-Q|2025-10-31",
+        "BAC|10-Q|2026-05-01",
+        "BAC|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "BAC_002",
+    "ticker": "BAC",
+    "difficulty": "simple",
+    "question": "What was Bank of America's noninterest income in Q1 2026?",
+    "expected_answer": "$14,527 million",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer states it doesn't know the information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 1,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 11,
+      "reciprocal_rank": 0.09090909090909091,
+      "retrieved_filings": [
+        "BAC|10-K|2024-02-20",
+        "BAC|10-K|2025-02-25",
+        "BAC|10-K|2026-02-25",
+        "BAC|10-Q|2025-10-31",
+        "BAC|10-Q|2026-05-01",
+        "BAC|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "BAC_003",
+    "ticker": "BAC",
+    "difficulty": "cross_year",
+    "question": "How did Bank of America's net interest income change year over year in Q1 2026?",
+    "expected_answer": "It rose from $14,443M to $15,745M",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer states it doesn't know the information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 2,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 8,
+      "reciprocal_rank": 0.125,
+      "retrieved_filings": [
+        "BAC|10-K|2024-02-20",
+        "BAC|10-K|2025-02-25",
+        "BAC|10-K|2026-02-25",
+        "BAC|10-Q|2025-10-31",
+        "BAC|10-Q|2026-05-01",
+        "BAC|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "BAC_004",
+    "ticker": "BAC",
+    "difficulty": "simple",
+    "question": "What was Bank of America's net income in Q1 2026?",
+    "expected_answer": "Bank of America's net income in Q1 2026 was $8.6 billion (specifically $8,584 million), or $1.11 per diluted share, compared to $7.4 billion ($0.89 per diluted share) in Q1 2025.",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer declines to provide any information.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 6,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": true,
+      "rank": 5,
+      "reciprocal_rank": 0.2,
+      "retrieved_filings": [
+        "BAC|10-K|2024-02-20",
+        "BAC|10-K|2025-02-25",
+        "BAC|10-K|2026-02-25",
+        "BAC|10-Q|2025-10-31",
+        "BAC|10-Q|2026-05-01",
+        "BAC|10-Q|2026-07-31"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  },
+  {
+    "id": "BAC_005",
+    "ticker": "BAC",
+    "difficulty": "cross_section",
+    "question": "What does Bank of America disclose about credit-loss provisioning trends in Q1 2026?",
+    "expected_answer": "Bank of America's Q1 2026 provision for credit losses was $1.3 billion ($1,337M), down $143M from $1,480M in Q1 2025, driven by a $137M decrease in consumer (improved credit card asset quality) and a $6M decrease in commercial (loan growth and a qualitative reserve build for Middle East conflict uncertainties offset by improved commercial real estate quality); the allowance for credit losses declined $55M (loan and lease losses) plus $16M (unfunded lending commitments), with credit card/other consumer down $110M offset by commercial +$25M and consumer real estate +$14M; by segment, Consumer Banking provision fell $160M to $1.1B, Global Banking rose $31M to $185M, and GWIM/Global Markets were roughly flat; quarterly trajectory: $1,480M (Q1'25) \u2192 $1,592M (Q2'25) \u2192 $1,295M (Q3'25) \u2192 $1,308M (Q4'25) \u2192 $1,337M (Q1'26), indicating stabilization near $1.3B after a mid-2025 peak.",
+    "answer": "I don't know.",
+    "verdict": "refused",
+    "judge_reason": "The generated answer declines to provide any information about the credit-loss provisioning trends.",
+    "numeric_recall": 0.0,
+    "figures_matched": 0,
+    "figures_expected": 24,
+    "refusal_phrase": true,
+    "filing_indexed": true,
+    "retrieval": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0,
+      "retrieved_filings": [
+        "BAC|10-K|2024-02-20",
+        "BAC|10-K|2025-02-25",
+        "BAC|10-K|2026-02-25",
+        "BAC|10-Q|2025-10-31"
+      ]
+    },
+    "passage": {
+      "hit": false,
+      "rank": null,
+      "reciprocal_rank": 0.0
+    }
+  }
+]

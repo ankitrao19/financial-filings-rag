@@ -1,0 +1,6 @@
+90 filings -> 48561 chunks to index
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9186.50it/s]
+[reset] dropped collection edgar_corpus_collection
+Indexed 48561 chunks. Collection now holds 48561.
+(final progress) Batches: 100%|██████████| 759/759 [01:43<00:00,  7.33it/s]

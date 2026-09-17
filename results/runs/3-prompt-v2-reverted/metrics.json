@@ -1,0 +1,136 @@
+{
+  "config": {
+    "answer_model": "gpt-4o-mini",
+    "judge_model": "gpt-4o-mini",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "top_k": 15,
+    "ticker_filter": true,
+    "filing_filter": true,
+    "answer_prompt": "v2"
+  },
+  "headline": {
+    "success_percent": 44.4,
+    "lenient_success_percent": 68.9,
+    "questions_scored": 45,
+    "questions_in_ground_truth": 45,
+    "coverage_percent": 100.0
+  },
+  "answer_metrics": {
+    "verdicts": {
+      "correct": 20,
+      "partial": 11,
+      "refused": 9,
+      "incorrect": 5
+    },
+    "correct": 20,
+    "partial": 11,
+    "incorrect": 5,
+    "refused": 9,
+    "refusal_percent": 20.0,
+    "refusal_phrase_percent": 20.0,
+    "mean_numeric_recall": 0.446
+  },
+  "retrieval_metrics": {
+    "hit_rate_at_15_percent": 100.0,
+    "mrr": 1.0,
+    "passage_hit_rate_at_15_percent": 72.1,
+    "passage_mrr": 0.277,
+    "passage_questions": 43,
+    "note": "Filing-level hit: did any retrieved chunk come from the filing the ground truth tags? Right filing, wrong section still counts as a hit, so this is an upper bound on true retrieval quality."
+  },
+  "by_difficulty": {
+    "cross_section": {
+      "questions": 9,
+      "correct": 1,
+      "accuracy_percent": 11.1,
+      "lenient_accuracy_percent": 88.9,
+      "retrieval_hit_percent": 100.0
+    },
+    "cross_year": {
+      "questions": 9,
+      "correct": 3,
+      "accuracy_percent": 33.3,
+      "lenient_accuracy_percent": 55.6,
+      "retrieval_hit_percent": 100.0
+    },
+    "simple": {
+      "questions": 27,
+      "correct": 16,
+      "accuracy_percent": 59.3,
+      "lenient_accuracy_percent": 66.7,
+      "retrieval_hit_percent": 100.0
+    }
+  },
+  "by_ticker": {
+    "AAPL": {
+      "questions": 5,
+      "correct": 2,
+      "accuracy_percent": 40.0,
+      "lenient_accuracy_percent": 60.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "AMZN": {
+      "questions": 5,
+      "correct": 3,
+      "accuracy_percent": 60.0,
+      "lenient_accuracy_percent": 80.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "BAC": {
+      "questions": 5,
+      "correct": 0,
+      "accuracy_percent": 0.0,
+      "lenient_accuracy_percent": 40.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "COST": {
+      "questions": 5,
+      "correct": 3,
+      "accuracy_percent": 60.0,
+      "lenient_accuracy_percent": 100.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "GOOGL": {
+      "questions": 5,
+      "correct": 4,
+      "accuracy_percent": 80.0,
+      "lenient_accuracy_percent": 100.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "GS": {
+      "questions": 5,
+      "correct": 2,
+      "accuracy_percent": 40.0,
+      "lenient_accuracy_percent": 40.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "MS": {
+      "questions": 5,
+      "correct": 3,
+      "accuracy_percent": 60.0,
+      "lenient_accuracy_percent": 100.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "NVDA": {
+      "questions": 5,
+      "correct": 3,
+      "accuracy_percent": 60.0,
+      "lenient_accuracy_percent": 60.0,
+      "retrieval_hit_percent": 100.0
+    },
+    "V": {
+      "questions": 5,
+      "correct": 0,
+      "accuracy_percent": 0.0,
+      "lenient_accuracy_percent": 40.0,
+      "retrieval_hit_percent": 100.0
+    }
+  },
+  "ground_truth_health": {
+    "entries_missing_expected_answer": [],
+    "entries_not_marked_verified": [],
+    "tagged_filing_not_in_vector_store": [],
+    "answerable_questions": 45,
+    "accuracy_on_answerable_percent": 44.4
+  }
+}

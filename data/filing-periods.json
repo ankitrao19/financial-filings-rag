@@ -1,0 +1,925 @@
+{
+  "source": "data/corpus",
+  "fiscal_year_end_month": {
+    "COST": 8,
+    "AAPL": 9,
+    "V": 9,
+    "GOOGL": 12,
+    "AMZN": 12,
+    "JPM": 12,
+    "BAC": 12,
+    "KO": 12,
+    "NVDA": 1,
+    "MS": 12,
+    "GS": 12,
+    "WMT": 1,
+    "NKE": 5,
+    "MSFT": 6,
+    "PG": 6
+  },
+  "index": {
+    "AAPL|2023|annual": "2023-11-03",
+    "AAPL|2024|annual": "2024-11-01",
+    "AAPL|2025|annual": "2025-10-31",
+    "AAPL|2026|Q1": "2026-01-30",
+    "AAPL|2026|Q2": "2026-05-01",
+    "AAPL|2026|Q3": "2026-07-31",
+    "AMZN|2023|annual": "2024-02-02",
+    "AMZN|2024|annual": "2025-02-07",
+    "AMZN|2025|Q3": "2025-10-31",
+    "AMZN|2025|annual": "2026-02-06",
+    "AMZN|2026|Q1": "2026-04-30",
+    "AMZN|2026|Q2": "2026-07-31",
+    "BAC|2023|annual": "2024-02-20",
+    "BAC|2024|annual": "2025-02-25",
+    "BAC|2025|Q3": "2025-10-31",
+    "BAC|2025|annual": "2026-02-25",
+    "BAC|2026|Q1": "2026-05-01",
+    "BAC|2026|Q2": "2026-07-31",
+    "COST|2023|annual": "2023-10-11",
+    "COST|2024|annual": "2024-10-09",
+    "COST|2025|annual": "2025-10-08",
+    "COST|2026|Q1": "2025-12-17",
+    "COST|2026|Q2": "2026-03-11",
+    "COST|2026|Q3": "2026-06-03",
+    "GOOGL|2023|annual": "2024-01-31",
+    "GOOGL|2024|annual": "2025-02-05",
+    "GOOGL|2025|Q3": "2025-10-30",
+    "GOOGL|2025|annual": "2026-02-05",
+    "GOOGL|2026|Q1": "2026-04-30",
+    "GOOGL|2026|Q2": "2026-07-23",
+    "GS|2023|annual": "2024-02-28",
+    "GS|2024|annual": "2025-02-27",
+    "GS|2025|Q3": "2025-10-31",
+    "GS|2025|annual": "2026-02-25",
+    "GS|2026|Q1": "2026-05-01",
+    "GS|2026|Q2": "2026-08-03",
+    "JPM|2023|annual": "2024-02-16",
+    "JPM|2024|annual": "2025-02-14",
+    "JPM|2025|Q3": "2025-11-04",
+    "JPM|2025|annual": "2026-02-13",
+    "JPM|2026|Q1": "2026-05-01",
+    "JPM|2026|Q2": "2026-08-06",
+    "KO|2023|annual": "2024-02-20",
+    "KO|2024|annual": "2025-02-20",
+    "KO|2025|Q3": "2025-10-23",
+    "KO|2025|annual": "2026-02-20",
+    "KO|2026|Q1": "2026-04-30",
+    "KO|2026|Q2": "2026-07-29",
+    "MSFT|2024|annual": "2024-07-30",
+    "MSFT|2025|annual": "2025-07-30",
+    "MSFT|2026|Q1": "2025-10-29",
+    "MSFT|2026|Q2": "2026-01-28",
+    "MSFT|2026|Q3": "2026-04-29",
+    "MSFT|2026|annual": "2026-07-29",
+    "MS|2023|annual": "2024-02-22",
+    "MS|2024|annual": "2025-02-21",
+    "MS|2025|Q3": "2025-11-03",
+    "MS|2025|annual": "2026-02-19",
+    "MS|2026|Q1": "2026-05-05",
+    "MS|2026|Q2": "2026-08-04",
+    "NKE|2024|annual": "2024-07-25",
+    "NKE|2025|annual": "2025-07-17",
+    "NKE|2026|Q1": "2025-10-01",
+    "NKE|2026|Q2": "2025-12-30",
+    "NKE|2026|Q3": "2026-04-01",
+    "NKE|2026|annual": "2026-07-15",
+    "NVDA|2024|annual": "2024-02-21",
+    "NVDA|2025|annual": "2025-02-26",
+    "NVDA|2026|Q2": "2025-08-27",
+    "NVDA|2026|Q3": "2025-11-19",
+    "NVDA|2026|annual": "2026-02-25",
+    "NVDA|2027|Q1": "2026-05-20",
+    "PG|2024|annual": "2024-08-05",
+    "PG|2025|annual": "2025-08-04",
+    "PG|2026|Q1": "2025-10-24",
+    "PG|2026|Q2": "2026-01-23",
+    "PG|2026|Q3": "2026-04-24",
+    "PG|2026|annual": "2026-08-04",
+    "V|2023|annual": "2023-11-15",
+    "V|2024|annual": "2024-11-13",
+    "V|2025|annual": "2025-11-06",
+    "V|2026|Q1": "2026-01-30",
+    "V|2026|Q2": "2026-04-29",
+    "V|2026|Q3": "2026-07-29",
+    "WMT|2024|annual": "2024-03-15",
+    "WMT|2025|annual": "2025-03-14",
+    "WMT|2026|Q2": "2025-08-29",
+    "WMT|2026|Q3": "2025-12-03",
+    "WMT|2026|annual": "2026-03-13",
+    "WMT|2027|Q1": "2026-05-29"
+  },
+  "filings": [
+    {
+      "ticker": "AAPL",
+      "form": "10-K",
+      "filing_date": "2023-11-03",
+      "period_end": "2023-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-K",
+      "filing_date": "2024-11-01",
+      "period_end": "2024-09-28",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-K",
+      "filing_date": "2025-10-31",
+      "period_end": "2025-09-27",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filing_date": "2026-01-30",
+      "period_end": "2025-12-27",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filing_date": "2026-05-01",
+      "period_end": "2026-03-28",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "AAPL",
+      "form": "10-Q",
+      "filing_date": "2026-07-31",
+      "period_end": "2026-06-27",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "AMZN",
+      "form": "10-K",
+      "filing_date": "2024-02-02",
+      "period_end": "2023-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "AMZN",
+      "form": "10-K",
+      "filing_date": "2025-02-07",
+      "period_end": "2024-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "AMZN",
+      "form": "10-Q",
+      "filing_date": "2025-10-31",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": 3
+    },
+    {
+      "ticker": "AMZN",
+      "form": "10-K",
+      "filing_date": "2026-02-06",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "AMZN",
+      "form": "10-Q",
+      "filing_date": "2026-04-30",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "AMZN",
+      "form": "10-Q",
+      "filing_date": "2026-07-31",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "BAC",
+      "form": "10-K",
+      "filing_date": "2024-02-20",
+      "period_end": "2023-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "BAC",
+      "form": "10-K",
+      "filing_date": "2025-02-25",
+      "period_end": "2024-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "BAC",
+      "form": "10-Q",
+      "filing_date": "2025-10-31",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": 3
+    },
+    {
+      "ticker": "BAC",
+      "form": "10-K",
+      "filing_date": "2026-02-25",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "BAC",
+      "form": "10-Q",
+      "filing_date": "2026-05-01",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "BAC",
+      "form": "10-Q",
+      "filing_date": "2026-07-31",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "COST",
+      "form": "10-K",
+      "filing_date": "2023-10-11",
+      "period_end": "2023-09-03",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "COST",
+      "form": "10-K",
+      "filing_date": "2024-10-09",
+      "period_end": "2024-09-01",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "COST",
+      "form": "10-K",
+      "filing_date": "2025-10-08",
+      "period_end": "2025-08-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "COST",
+      "form": "10-Q",
+      "filing_date": "2025-12-17",
+      "period_end": "2025-11-23",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "COST",
+      "form": "10-Q",
+      "filing_date": "2026-03-11",
+      "period_end": "2026-02-15",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "COST",
+      "form": "10-Q",
+      "filing_date": "2026-06-03",
+      "period_end": "2026-05-10",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "GOOGL",
+      "form": "10-K",
+      "filing_date": "2024-01-31",
+      "period_end": "2023-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "GOOGL",
+      "form": "10-K",
+      "filing_date": "2025-02-05",
+      "period_end": "2024-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "GOOGL",
+      "form": "10-Q",
+      "filing_date": "2025-10-30",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": 3
+    },
+    {
+      "ticker": "GOOGL",
+      "form": "10-K",
+      "filing_date": "2026-02-05",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "GOOGL",
+      "form": "10-Q",
+      "filing_date": "2026-04-30",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "GOOGL",
+      "form": "10-Q",
+      "filing_date": "2026-07-23",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "period_end": "2023-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2025-02-27",
+      "period_end": "2024-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "GS",
+      "form": "10-Q",
+      "filing_date": "2025-10-31",
+      "period_end": "2025-09-30",
+      "period_source": "filing_date",
+      "fiscal_year": 2025,
+      "quarter": 3
+    },
+    {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2026-02-25",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "GS",
+      "form": "10-Q",
+      "filing_date": "2026-05-01",
+      "period_end": "2026-03-31",
+      "period_source": "filing_date",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "GS",
+      "form": "10-Q",
+      "filing_date": "2026-08-03",
+      "period_end": "2026-06-30",
+      "period_source": "filing_date",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "JPM",
+      "form": "10-K",
+      "filing_date": "2024-02-16",
+      "period_end": "2023-12-31",
+      "period_source": "filing_date",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "JPM",
+      "form": "10-K",
+      "filing_date": "2025-02-14",
+      "period_end": "2024-12-31",
+      "period_source": "filing_date",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "JPM",
+      "form": "10-Q",
+      "filing_date": "2025-11-04",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": 3
+    },
+    {
+      "ticker": "JPM",
+      "form": "10-K",
+      "filing_date": "2026-02-13",
+      "period_end": "2025-12-31",
+      "period_source": "filing_date",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "JPM",
+      "form": "10-Q",
+      "filing_date": "2026-05-01",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "JPM",
+      "form": "10-Q",
+      "filing_date": "2026-08-06",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "KO",
+      "form": "10-K",
+      "filing_date": "2024-02-20",
+      "period_end": "2023-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "KO",
+      "form": "10-K",
+      "filing_date": "2025-02-20",
+      "period_end": "2024-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "KO",
+      "form": "10-Q",
+      "filing_date": "2025-10-23",
+      "period_end": "2025-09-26",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": 3
+    },
+    {
+      "ticker": "KO",
+      "form": "10-K",
+      "filing_date": "2026-02-20",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "KO",
+      "form": "10-Q",
+      "filing_date": "2026-04-30",
+      "period_end": "2026-04-03",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "KO",
+      "form": "10-Q",
+      "filing_date": "2026-07-29",
+      "period_end": "2026-07-03",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "MS",
+      "form": "10-K",
+      "filing_date": "2024-02-22",
+      "period_end": "2023-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "MS",
+      "form": "10-K",
+      "filing_date": "2025-02-21",
+      "period_end": "2024-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "MS",
+      "form": "10-Q",
+      "filing_date": "2025-11-03",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": 3
+    },
+    {
+      "ticker": "MS",
+      "form": "10-K",
+      "filing_date": "2026-02-19",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "MS",
+      "form": "10-Q",
+      "filing_date": "2026-05-05",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "MS",
+      "form": "10-Q",
+      "filing_date": "2026-08-04",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-K",
+      "filing_date": "2024-07-30",
+      "period_end": "2024-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-K",
+      "filing_date": "2025-07-30",
+      "period_end": "2025-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filing_date": "2025-10-29",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filing_date": "2026-01-28",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-Q",
+      "filing_date": "2026-04-29",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "MSFT",
+      "form": "10-K",
+      "filing_date": "2026-07-29",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": null
+    },
+    {
+      "ticker": "NKE",
+      "form": "10-K",
+      "filing_date": "2024-07-25",
+      "period_end": "2024-05-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "NKE",
+      "form": "10-K",
+      "filing_date": "2025-07-17",
+      "period_end": "2025-05-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "NKE",
+      "form": "10-Q",
+      "filing_date": "2025-10-01",
+      "period_end": "2025-08-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "NKE",
+      "form": "10-Q",
+      "filing_date": "2025-12-30",
+      "period_end": "2025-11-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "NKE",
+      "form": "10-Q",
+      "filing_date": "2026-04-01",
+      "period_end": "2026-02-28",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "NKE",
+      "form": "10-K",
+      "filing_date": "2026-07-15",
+      "period_end": "2026-05-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": null
+    },
+    {
+      "ticker": "NVDA",
+      "form": "10-K",
+      "filing_date": "2024-02-21",
+      "period_end": "2024-01-28",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "NVDA",
+      "form": "10-K",
+      "filing_date": "2025-02-26",
+      "period_end": "2025-01-26",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "NVDA",
+      "form": "10-Q",
+      "filing_date": "2025-08-27",
+      "period_end": "2025-07-27",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "NVDA",
+      "form": "10-Q",
+      "filing_date": "2025-11-19",
+      "period_end": "2025-10-26",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "NVDA",
+      "form": "10-K",
+      "filing_date": "2026-02-25",
+      "period_end": "2026-01-25",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": null
+    },
+    {
+      "ticker": "NVDA",
+      "form": "10-Q",
+      "filing_date": "2026-05-20",
+      "period_end": "2026-04-26",
+      "period_source": "cover",
+      "fiscal_year": 2027,
+      "quarter": 1
+    },
+    {
+      "ticker": "PG",
+      "form": "10-K",
+      "filing_date": "2024-08-05",
+      "period_end": "2024-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "PG",
+      "form": "10-K",
+      "filing_date": "2025-08-04",
+      "period_end": "2025-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "PG",
+      "form": "10-Q",
+      "filing_date": "2025-10-24",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "PG",
+      "form": "10-Q",
+      "filing_date": "2026-01-23",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "PG",
+      "form": "10-Q",
+      "filing_date": "2026-04-24",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "PG",
+      "form": "10-K",
+      "filing_date": "2026-08-04",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": null
+    },
+    {
+      "ticker": "V",
+      "form": "10-K",
+      "filing_date": "2023-11-15",
+      "period_end": "2023-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2023,
+      "quarter": null
+    },
+    {
+      "ticker": "V",
+      "form": "10-K",
+      "filing_date": "2024-11-13",
+      "period_end": "2024-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "V",
+      "form": "10-K",
+      "filing_date": "2025-11-06",
+      "period_end": "2025-09-30",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "V",
+      "form": "10-Q",
+      "filing_date": "2026-01-30",
+      "period_end": "2025-12-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 1
+    },
+    {
+      "ticker": "V",
+      "form": "10-Q",
+      "filing_date": "2026-04-29",
+      "period_end": "2026-03-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "V",
+      "form": "10-Q",
+      "filing_date": "2026-07-29",
+      "period_end": "2026-06-30",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "WMT",
+      "form": "10-K",
+      "filing_date": "2024-03-15",
+      "period_end": "2024-01-31",
+      "period_source": "cover",
+      "fiscal_year": 2024,
+      "quarter": null
+    },
+    {
+      "ticker": "WMT",
+      "form": "10-K",
+      "filing_date": "2025-03-14",
+      "period_end": "2025-01-31",
+      "period_source": "cover",
+      "fiscal_year": 2025,
+      "quarter": null
+    },
+    {
+      "ticker": "WMT",
+      "form": "10-Q",
+      "filing_date": "2025-08-29",
+      "period_end": "2025-07-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 2
+    },
+    {
+      "ticker": "WMT",
+      "form": "10-Q",
+      "filing_date": "2025-12-03",
+      "period_end": "2025-10-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": 3
+    },
+    {
+      "ticker": "WMT",
+      "form": "10-K",
+      "filing_date": "2026-03-13",
+      "period_end": "2026-01-31",
+      "period_source": "cover",
+      "fiscal_year": 2026,
+      "quarter": null
+    },
+    {
+      "ticker": "WMT",
+      "form": "10-Q",
+      "filing_date": "2026-05-29",
+      "period_end": "2026-04-30",
+      "period_source": "cover",
+      "fiscal_year": 2027,
+      "quarter": 1
+    }
+  ],
+  "problems": []
+}

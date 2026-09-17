@@ -1,0 +1,424 @@
+{
+  "_README": {
+    "purpose": "Ground-truth evaluation set for the financial-filings RAG project. Each entry is a question with a verified answer and the source filing it came from. Used to compute retrieval metrics (hit rate, MRR) and answer metrics (RAGAS faithfulness, answer relevancy).",
+    "verified": "Entries marked verified=true have answers extracted directly from the uploaded filings by reading the actual income-statement / MD&A chunks. Entries marked verified=false are TEMPLATES for you to fill — the question is written, but you must open the filing and confirm the number before trusting it.",
+    "difficulty_tiers": "simple = single-chunk lookup; cross_year = needs multiple years/chunks; cross_section = answer lives outside the financial tables (risk factors, business, MD&A narrative). Keep the mix — it makes your eval numbers tell a story.",
+    "how_to_use": "Load this file in your eval harness. For each question, run your RAG pipeline, then compare retrieved chunks (did the right filing/section come back?) and the generated answer (does it match expected_answer?).",
+    "your_job": "1) Verify a sample of the verified=true answers against the filings yourself. 2) Fill every verified=false entry. 3) Extend toward 50 by adding cross_section questions from risk factors — those are under-represented here because they need you to read the prose."
+  },
+  "qa_pairs": [
+    {
+      "id": "COST_001",
+      "question": "What was Costco's net income including noncontrolling interests in fiscal 2024?",
+      "expected_answer": "$7,367 million",
+      "ticker": "COST",
+      "filing_date": "2024-10-09",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "COST_002",
+      "question": "What was Costco's total revenue in fiscal 2024?",
+      "expected_answer": "$254,453 million (net sales $249,625M plus membership fees)",
+      "ticker": "COST",
+      "filing_date": "2024-10-09",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "COST_003",
+      "question": "How did Costco's net income change from fiscal 2022 to fiscal 2024?",
+      "expected_answer": "It rose from $5,844M (2022) to $6,292M (2023) to $7,367M (2024)",
+      "ticker": "COST",
+      "filing_date": "2024-10-09",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "COST_004",
+      "question": "How many warehouses did Costco operate worldwide as of September 1, 2024?",
+      "expected_answer": "890 warehouses",
+      "ticker": "COST",
+      "filing_date": "2024-10-09",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "COST_005",
+      "question": "What risk does Costco cite regarding its dependence on U.S. and Canadian operations?",
+      "expected_answer": "Costco states that its U.S. and Canadian operations comprised 86% of net sales and 85% of operating income in 2024, and within the U.S., California alone accounted for 27% of U.S. net sales. Any substantial slowing or sustained decline in these operations—driven by factors like weak comparable sales, rising labor/healthcare/energy costs, missed warehouse opening targets, cannibalization, unfavorable sales mix shifts, or economic downturns—could materially adversely affect its business and financial results.",
+      "ticker": "COST",
+      "filing_date": "2024-10-09",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+
+    {
+      "id": "AAPL_001",
+      "question": "What were Apple's total net sales in fiscal 2023?",
+      "expected_answer": "$383,285 million",
+      "ticker": "AAPL",
+      "filing_date": "2023-11-03",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "AAPL_002",
+      "question": "What was Apple's net income in fiscal 2023?",
+      "expected_answer": "$96,995 million",
+      "ticker": "AAPL",
+      "filing_date": "2023-11-03",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "AAPL_003",
+      "question": "What was Apple's operating income in fiscal 2023 versus 2022?",
+      "expected_answer": "$114,301M in 2023 versus $119,437M in 2022",
+      "ticker": "AAPL",
+      "filing_date": "2023-11-03",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "AAPL_004",
+      "question": "What were Apple's net sales in Greater China in fiscal 2023?",
+      "expected_answer": "$72,559 million",
+      "ticker": "AAPL",
+      "filing_date": "2023-11-03",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "AAPL_005",
+      "question": "What does Apple identify as risks related to its dependence on third-party manufacturing partners?",
+      "expected_answer": "Apple states that substantially all of its manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan, and Vietnam — often a small number of partners concentrated in single locations. It relies on single-source outsourcing partners for many components and for final assembly of substantially all hardware products, so any failure of these partners can negatively affect the cost or supply of components and finished goods. Outsourcing reduces Apple's direct control over production and distribution, which can adversely affect product quality, quantity, and its flexibility to respond to changing conditions. Apple has also invested in manufacturing equipment held at partners' facilities and made prepayments under long-term supply agreements, which could be impaired if those partners face financial or operational disruption.",
+      "ticker": "AAPL",
+      "filing_date": "2023-11-03",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+
+    {
+      "id": "AMZN_001",
+      "question": "What were Amazon's total net sales in 2023?",
+      "expected_answer": "$574,785 million",
+      "ticker": "AMZN",
+      "filing_date": "2024-02-02",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "AMZN_002",
+      "question": "What was Amazon's net income in 2023?",
+      "expected_answer": "$30,425 million",
+      "ticker": "AMZN",
+      "filing_date": "2024-02-02",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "AMZN_003",
+      "question": "What was Amazon's other income (expense), net in 2023 versus 2022?",
+      "expected_answer": "$14,633M income in 2023 versus $(16,806)M expense in 2022",
+      "ticker": "AMZN",
+      "filing_date": "2024-02-02",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "AMZN_004",
+      "question": "What were Amazon's AWS segment net sales in 2023?",
+      "expected_answer": "AWS net sales were $90,757 million in 2023.",
+      "ticker": "AMZN",
+      "filing_date": "2024-02-02",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "AMZN_005",
+      "question": "What risks does Amazon disclose about intense competition across its business segments?",
+      "expected_answer": "Amazon discloses that its businesses are rapidly evolving and intensely competitive across many geographies and industries (physical/e-commerce/omnichannel retail, e-commerce services, web and infrastructure computing, electronic devices, digital content, advertising, grocery, transportation/logistics). Some competitors have greater resources, longer histories, more customers, better brand recognition, and may secure better vendor terms, adopt more aggressive pricing, and invest more in technology, infrastructure, fulfillment, and marketing. Competition is intensifying via new business models, well-funded entrants, business combinations, and enhanced technologies (search, cloud, AI/ML, digital content, devices). The internet facilitates comparison shopping and easier competitive entry. As a result, offerings may fail, business may be lost, and Amazon may need to increase spending or lower prices, materially reducing sales and profits.",
+      "ticker": "AMZN",
+      "filing_date": "2024-02-02",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+
+    {
+      "id": "GOOGL_001",
+      "question": "What was Alphabet's total revenue in 2024?",
+      "expected_answer": "$350,018 million",
+      "ticker": "GOOGL",
+      "filing_date": "2025-02-05",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "GOOGL_002",
+      "question": "What was Alphabet's net income in 2024?",
+      "expected_answer": "$100,118 million",
+      "ticker": "GOOGL",
+      "filing_date": "2025-02-05",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "GOOGL_003",
+      "question": "How did Alphabet's total revenue change from 2023 to 2024?",
+      "expected_answer": "It grew from $307,394M to $350,018M, an increase of $42,624M (14%)",
+      "ticker": "GOOGL",
+      "filing_date": "2025-02-05",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "GOOGL_004",
+      "question": "What was Alphabet's cost of revenues in 2024?",
+      "expected_answer": "$146,306 million",
+      "ticker": "GOOGL",
+      "filing_date": "2025-02-05",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "GOOGL_005",
+      "question": "What does Alphabet say about risks from AI and regulatory scrutiny?",
+      "expected_answer": "Alphabet describes AI as subject to rapidly evolving and uncertain regulation — citing the EU AI Act (in force August 1, 2024, fully applicable after a two-year transition), U.S. federal uncertainty, and various state-level laws targeting AI use, consumer protection, and deepfakes/synthetic media — which could result in monetary penalties or other regulatory actions. It notes that its development and commercialization of AI products, and increased use of AI in its offerings and internal systems, may create new avenues for abuse, expose it to litigation (including over AI training, development, and commercialization), and interact with uncertain safe-harbor protections. It frames these alongside broader regulatory and legal exposure that could harm its business, reputation, financial condition, and operating results.",
+      "ticker": "GOOGL",
+      "filing_date": "2025-02-05",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+
+    {
+      "id": "NVDA_001",
+      "question": "What was NVIDIA's revenue in fiscal 2026?",
+      "expected_answer": "$215,938 million",
+      "ticker": "NVDA",
+      "filing_date": "2026-02-25",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "NVDA_002",
+      "question": "What was NVIDIA's net income in fiscal 2026?",
+      "expected_answer": "$120,067 million",
+      "ticker": "NVDA",
+      "filing_date": "2026-02-25",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "NVDA_003",
+      "question": "How did NVIDIA's net income change from fiscal 2025 to fiscal 2026?",
+      "expected_answer": "It rose from $72,880M to $120,067M, up 65%",
+      "ticker": "NVDA",
+      "filing_date": "2026-02-25",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "NVDA_004",
+      "question": "What was NVIDIA's operating income in fiscal 2026?",
+      "expected_answer": "$130,387 million (up 60%)",
+      "ticker": "NVDA",
+      "filing_date": "2026-02-25",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "NVDA_005",
+      "question": "By how much did NVIDIA's Data Center networking revenue grow in fiscal 2026, and what drove it?",
+      "expected_answer": "Data Center networking grew 142%, driven by the introduction and ramp of NVLink (Compute & Networking revenue rose 58% to $87,960M)",
+      "ticker": "NVDA",
+      "filing_date": "2026-02-25",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+
+    {
+      "id": "MS_001",
+      "question": "What were Morgan Stanley's total net revenues in 2024?",
+      "expected_answer": "$61,761 million",
+      "ticker": "MS",
+      "filing_date": "2025-02-21",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "MS_002",
+      "question": "How did Morgan Stanley's net revenues change from 2023 to 2024?",
+      "expected_answer": "They rose from $54,143M (2023) to $61,761M (2024)",
+      "ticker": "MS",
+      "filing_date": "2025-02-21",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "MS_003",
+      "question": "What net revenues did Morgan Stanley's Wealth Management segment deliver in 2024?",
+      "expected_answer": "$28.4 billion, with a pre-tax margin of 27.2%",
+      "ticker": "MS",
+      "filing_date": "2025-02-21",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+    {
+      "id": "MS_004",
+      "question": "What net revenues did Morgan Stanley's Investment Management segment report in 2024?",
+      "expected_answer": "$5.9 billion",
+      "ticker": "MS",
+      "filing_date": "2025-02-21",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "MS_005",
+      "question": "What was Morgan Stanley's net income applicable to Morgan Stanley in 2024?",
+      "expected_answer": "Morgan Stanley's net income applicable to Morgan Stanley in 2024 was $13,390 million ($13.4 billion).`",
+      "ticker": "MS",
+      "filing_date": "2025-02-21",
+      "difficulty": "simple",
+      "verified": true
+    },
+
+    {
+      "id": "GS_001",
+      "question": "What were Goldman Sachs' total net revenues in the first quarter of 2026?",
+      "expected_answer": "$17,227 million",
+      "ticker": "GS",
+      "filing_date": "2026-05-01",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "GS_002",
+      "question": "How did Goldman Sachs' Q1 total net revenues compare to the prior-year quarter?",
+      "expected_answer": "$17,227M versus $15,062M in the prior-year quarter",
+      "ticker": "GS",
+      "filing_date": "2026-05-01",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "GS_003",
+      "question": "What were Goldman Sachs' Fixed Income net revenues in 2025 and what drove the change?",
+      "expected_answer": "$8,716 million, up 4%, reflecting increases in Global macro and Credit products, partly offset by lower Commodities",
+      "ticker": "GS",
+      "filing_date": "2026-05-01",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+    {
+      "id": "GS_004",
+      "question": "What were Goldman Sachs' total pre-tax earnings for the Americas region in Q1 2026?",
+      "expected_answer": "$4,119 million (63% of total)",
+      "ticker": "GS",
+      "filing_date": "2026-05-01",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "GS_005",
+      "question": "What were Goldman Sachs' Other net revenues in 2025 versus the prior year?",
+      "expected_answer": "$1,114 million in 2025 versus $1,262 million prior year",
+      "ticker": "GS",
+      "filing_date": "2026-05-01",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+
+    {
+      "id": "V_001",
+      "question": "What was Visa's net income in the quarter ended June 30, 2026?",
+      "expected_answer": "$5,628 million (versus $5,272M prior-year quarter)",
+      "ticker": "V",
+      "filing_date": "2026-07-29",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "V_002",
+      "question": "What was Visa's income before income taxes in the quarter ended June 30, 2026?",
+      "expected_answer": "$6,833 million (versus $6,333M prior-year quarter)",
+      "ticker": "V",
+      "filing_date": "2026-07-29",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "V_003",
+      "question": "What was Visa's total non-operating income (expense) in the quarter ended June 30, 2026?",
+      "expected_answer": "$(44) million (versus $156M prior-year quarter)",
+      "ticker": "V",
+      "filing_date": "2026-07-29",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "V_004",
+      "question": "What were Visa's net revenues for the quarter ended June 30, 2026?",
+      "expected_answer": "Visa's net revenue for the quarter ended June 30, 2026 was $11,633 million (~$11.6 billion), up 14% from $10,172 million in the prior-year quarter.",
+      "ticker": "V",
+      "filing_date": "2026-07-29",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "V_005",
+      "question": "What risks does Visa disclose about settlement and payment network operations?",
+      "expected_answer": "Visa discloses the following about settlement and payment network risks in this 10-Q: **Settlement risk (Note 9 — Settlement Guarantee Management):** - Visa indemnifies issuing and acquiring clients for settlement losses if another client fails to fund its settlement obligations under Visa's operating rules. This creates settlement risk due to the timing difference between the payment transaction date and the settlement date. - Settlement exposure is limited to unsettled Visa payment transactions at any point in time and varies significantly day to day. - For the nine months ended June 30, 2026, maximum daily settlement exposure was **$168.6 billion** and average daily exposure was **$99.5 billion**. - Future obligations under the guarantees could be material but are not determinable, as they depend on future events. **Risk mitigation:** - Visa maintains and regularly reviews global settlement risk policies and procedures. - Clients may be required to post collateral (restricted cash, letters of credit, guarantees, pledged securities, beneficial rights to trust assets) if certain credit standards are not met. - Total collateral held was **$9.5 billion** as of June 30, 2026 (vs. $8.8 billion at September 30, 2025). - Historically, Visa has experienced minimal losses from its settlement risk guarantee. **Regulatory development affecting network operations (Brazil):** - The Central Bank of Brazil has mandated enhanced requirements for payments networks. Visa submitted enhanced operating rule provisions that will require it to extend settlement guarantees to sellers. - Once approved, settlement exposure is expected to increase, and Visa is reassessing its collateral requirements and risk mitigation framework. **Broader risk factors:** For enterprise-wide risks about payment network operations (cybersecurity, competition, technology, etc.), the 10-Q's Item 1A refers readers to the Risk Factors section of Visa's FY2025 Form 10-K rather than restating them.",
+      "ticker": "V",
+      "filing_date": "2026-07-29",
+      "difficulty": "cross_section",
+      "verified": true
+    },
+
+    {
+      "id": "BAC_001",
+      "question": "What was Bank of America's net interest income in Q1 2026?",
+      "expected_answer": "$15,745 million (versus $14,443M prior-year quarter)",
+      "ticker": "BAC",
+      "filing_date": "2026-05-01",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "BAC_002",
+      "question": "What was Bank of America's noninterest income in Q1 2026?",
+      "expected_answer": "$14,527 million",
+      "ticker": "BAC",
+      "filing_date": "2026-05-01",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "BAC_003",
+      "question": "How did Bank of America's net interest income change year over year in Q1 2026?",
+      "expected_answer": "It rose from $14,443M to $15,745M",
+      "ticker": "BAC",
+      "filing_date": "2026-05-01",
+      "difficulty": "cross_year",
+      "verified": true
+    },
+    {
+      "id": "BAC_004",
+      "question": "What was Bank of America's net income in Q1 2026?",
+      "expected_answer": "Bank of America's net income in Q1 2026 was $8.6 billion (specifically $8,584 million), or $1.11 per diluted share, compared to $7.4 billion ($0.89 per diluted share) in Q1 2025.",
+      "ticker": "BAC",
+      "filing_date": "2026-05-01",
+      "difficulty": "simple",
+      "verified": true
+    },
+    {
+      "id": "BAC_005",
+      "question": "What does Bank of America disclose about credit-loss provisioning trends in Q1 2026?",
+      "expected_answer": "Bank of America's Q1 2026 provision for credit losses was $1.3 billion ($1,337M), down $143M from $1,480M in Q1 2025, driven by a $137M decrease in consumer (improved credit card asset quality) and a $6M decrease in commercial (loan growth and a qualitative reserve build for Middle East conflict uncertainties offset by improved commercial real estate quality); the allowance for credit losses declined $55M (loan and lease losses) plus $16M (unfunded lending commitments), with credit card/other consumer down $110M offset by commercial +$25M and consumer real estate +$14M; by segment, Consumer Banking provision fell $160M to $1.1B, Global Banking rose $31M to $185M, and GWIM/Global Markets were roughly flat; quarterly trajectory: $1,480M (Q1'25) → $1,592M (Q2'25) → $1,295M (Q3'25) → $1,308M (Q4'25) → $1,337M (Q1'26), indicating stabilization near $1.3B after a mid-2025 peak.",
+      "ticker": "BAC",
+      "filing_date": "2026-05-01",
+      "difficulty": "cross_section",
+      "verified": true
+    }
+  ]
+}

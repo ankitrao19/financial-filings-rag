@@ -1,0 +1,5 @@
+90 filings -> 48561 chunks to index
+<All keys matched successfully>
+Indexed 48561 chunks. Collection now holds 48561.
+exit 0
+(final progress) Batches: 100%|██████████| 6071/6071 [25:12<00:00,  4.01it/s]

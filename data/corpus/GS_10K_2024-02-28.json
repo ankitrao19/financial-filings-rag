@@ -1,0 +1,288 @@
+[
+  {
+    "text": "### UNITED STATES SECURITIES AND EXCHANGE COMMISSION\n<div align='center'>Washington, D.C. 20549</div>\n\n#### Form 10-K/A\n<div align='center'>(Amendment No. 1)\n\nANNUAL REPORTPURSUANT TO SECTION 13 OR 15(d) OF\n\nTHE SECURITIES EXCHANGE ACT OF 1934</div>\n\n| For the fiscal year endedDecember 31, 2023 |     | Commission File Number:001-14965 |\n\n#### The Goldman Sachs Group, Inc.\n<div align='center'>(Exact name of registrant as specified in its charter)</div>\n\n| Delaware                                 |     |         13-4019460 |\n| (State or other jurisdiction of          \n incorporation or organization)           |     |   -I.R.S. Employer \n Identification No. |\n| 200 West Street,New York,NY              |     |              10282 |\n| (Address of principal executive offices) |     |          -Zip Code |\n\n<div align='center'>( 212) 902-1000\n\n(Registrant’s telephone number, including area code)</div>\n\n<div align='center'>Securities registered pursuant to Section 12(b) of the Act:</div>\n\n| Title of each class                                                                                                                         |     | Trading \n Symbol  |     | Exchange   \n on which   \n regi",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 0
+    }
+  },
+  {
+    "text": "e of each class                                                                                                                         |     | Trading \n Symbol  |     | Exchange   \n on which   \n registered |\n| Common stock, par value $.01 per share                                                                                                      |     | GS      |     | NYSE       |\n| Depositary Shares, Each Representing 1/1,000th Interest in a Shareof Floating Rate Non-Cumulative Preferred Stock, Series A                 |     | GS PRA  |     | NYSE       |\n| Depositary Shares, Each Representing 1/1,000th Interest in a Shareof Floating Rate Non-Cumulative Preferred Stock, Series C                 |     | GS PRC  |     | NYSE       |\n| Depositary Shares, Each Representing 1/1,000th Interest in a Shareof Floating Rate Non-Cumulative Preferred Stock, Series D                 |     | GS PRD  |     | NYSE       |\n| Depositary Shares, Each Representing 1/1,000th Interest in a Shareof 6.375% Fixed-to-Floating Rate Non-Cumulative Preferred Stock, Series K |     | GS PRK  |     | NYSE       |\n| 5.793% Fixed-to-Floating RateNormal Automatic Preferred Enhanced Capital Securities of Goldman",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 1
+    }
+  },
+  {
+    "text": "5% Fixed-to-Floating Rate Non-Cumulative Preferred Stock, Series K |     | GS PRK  |     | NYSE       |\n| 5.793% Fixed-to-Floating RateNormal Automatic Preferred Enhanced Capital Securities of Goldman Sachs Capital II                             |     | GS/43PE |     | NYSE       |\n| Floating RateNormal Automatic Preferred Enhanced Capital Securities of Goldman Sachs Capital III                                            |     | GS/43PF |     | NYSE       |\n| Medium-Term Notes, Series F, Callable Fixed and Floating Rate Notes due March 2031 of GS Finance Corp.                                      |     | GS/31B  |     | NYSE       |\n| Medium-Term Notes, Series F, Callable Fixed and Floating Rate Notes due May 2031 of GS Finance Corp.                                        |     | GS/31X  |     | NYSE       |\n\n<div align='center'>Securities registered pursuant to Section 12(g) of the Act: None</div>\n\nIndicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act. ☐ Yes ☒ No\n\nIndicate by check mark if the registrant is not required to file reports pursuant to Section 13 or 15(d) of the Act. ☐ Yes ☒ No\n\nIndicate by check mark whe",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 2
+    }
+  },
+  {
+    "text": "Rule 405 of the Securities Act. ☐ Yes ☒ No\n\nIndicate by check mark if the registrant is not required to file reports pursuant to Section 13 or 15(d) of the Act. ☐ Yes ☒ No\n\nIndicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. ☒ Yes☐ No\n\nIndicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T ( § 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). ☒ Yes☐ No\n\nIndicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 3
+    }
+  },
+  {
+    "text": "ny, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.\n\n| Large accelerated filer |     | ☒ |     | Accelerated filer ☐ |     | Non-accelerated filer ☐ |     | Smaller reporting company |     | ☐ |     | Emerging growth company |     | ☐ |\n\nIf an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐\n\nIndicate by check mark whether the registrant has filed a report on and attestation to its management’s assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report. ☒\n\nIf securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing reflect the correction of an error to previously issued fi",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 4
+    }
+  },
+  {
+    "text": "stered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing reflect the correction of an error to previously issued financial statements. ☒\n\nIndicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant’s executive officers during the relevant recovery period pursuant to § 240.10D-1(b). ☐\n\nIndicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). ☐Yes ☒ No\n\nAs of June 30, 2023, the aggregate market value of the common stock of the registrant held by non-affiliates of the registrant was approximately $ 106.2billion.\n\nAs of February 9, 2024, there were 325,562,747shares of the registrant’s common stock outstanding.\n\nDocuments incorporated by reference: Portions of The Goldman Sachs Group, Inc.’s Proxy Statement for its 2024 Annual Meeting of Shareholders are incorporated by reference in the Annual Report on Form 10-K in response to Part III, Items 10, 11, 12, 13 and 14.\n\n| Auditor Name:PricewaterhouseCoopers LLP |     | Auditor Locati",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 5
+    }
+  },
+  {
+    "text": "of Shareholders are incorporated by reference in the Annual Report on Form 10-K in response to Part III, Items 10, 11, 12, 13 and 14.\n\n| Auditor Name:PricewaterhouseCoopers LLP |     | Auditor Location:New York, New York |     | Auditor PCAOB ID:238 |\n\n<div align='center'>EXPLANATORY NOTE</div>\n\nOur Annual Report on Form 10-K for the fiscal year ended December 31, 2023 (Original Form 10‑K) was filed with versions of Exhibits 31.1 and 32.1 that referred to a Quarterly Report on Form 10-Q for the quarter ended December 31, 2023 instead of the Annual Report on Form 10-K for the year ended December 31, 2023. The certifications physically signed by our Chief Executive Officer and Chief Financial Officer correctly referred to the Annual Report on Form 10-K for the year ended December 31, 2023.\n\nThis Amendment No. 1 on Form 10-K/A (Amendment) to our Original Form 10-K, filed on February 23, 2024, is being filed for the purpose of correcting the references to a quarterly period on Form 10-Q instead of an annual period on Form 10-K in Exhibits 31.1 and 32.1, adding the symbol “†” next to Exhibit 10.32 and updating the cross reference in the description of Exhibit 3.2.\n\nThis Amendment does",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 6
+    }
+  },
+  {
+    "text": "nstead of an annual period on Form 10-K in Exhibits 31.1 and 32.1, adding the symbol “†” next to Exhibit 10.32 and updating the cross reference in the description of Exhibit 3.2.\n\nThis Amendment does not amend or otherwise update any other information in the Original Form 10-K and does not reflect events or circumstances occurring after the date of the Original Form 10-K.\n\nTHE GOLDMAN SACHS GROUP, INC. AND SUBSIDIARIES\n\nANNUAL REPORT ON FORM 10-K FOR THE FISCAL YEAR ENDED DECEMBER 31, 2023\n\n#### INDEX\n| Form 10-K Item Number                            |     | Page No. |\n| PART IV                                          |     |        1 |\n| Item 15Exhibit and Financial Statement Schedules |     |        1 |\n| SIGNATURES                                       |     |     II-1 |\n\n# PART IVItem 15. Exhibit and Financial Statement Schedules(a)  Documents filed as part of this Report:1.  Consolidated Financial StatementsThe consolidated financial statements required to be filed in this Form 10-K are included in Part II, Item 8 hereof.2.  Exhibits2.1Plan of Incorporation (incorporated by reference to Exhibit 2.1 to the Registrant’s Registration Statement on Form S-1 (No. 333-74449)).3.1Re",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 7
+    }
+  },
+  {
+    "text": "10-K are included in Part II, Item 8 hereof.2.  Exhibits2.1Plan of Incorporation (incorporated by reference to Exhibit 2.1 to the Registrant’s Registration Statement on Form S-1 (No. 333-74449)).3.1Restated Certificate of Incorporation of The Goldman Sachs Group, Inc., amended as of September 15, 2023(incorporated by reference to Exhibit 3.2 to the Registrant’s Current Report on Form 8-K, filed onSeptember 18, 2023).3.2Amended and Restated By-Laws of The Goldman Sachs Group, Inc., amended as of November 3, 2023(incorporated by reference to Exhibit 3.2to the Registrant’s Quarterly Report on Form 10-Q for the quarter ended September 30, 2023).4.1Description of The Goldman Sachs Group, Inc.’s Securities registered pursuant to Section 12 of the Securities Exchange Act of 1934.*4.2Indenture, dated as of May 19, 1999, between The Goldman Sachs Group, Inc. and The Bank of New York, as trustee (incorporated by reference to Exhibit 6 to the Registrant’s Registration Statement on Form 8-A, filed on June 29, 1999).4.3Subordinated Debt Indenture, dated as of February 20, 2004, between The Goldman Sachs Group, Inc. and The Bank of New York, as trustee (incorporated by reference to Exhibit 4.2 t",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 8
+    }
+  },
+  {
+    "text": "on June 29, 1999).4.3Subordinated Debt Indenture, dated as of February 20, 2004, between The Goldman Sachs Group, Inc. and The Bank of New York, as trustee (incorporated by reference to Exhibit 4.2 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended November 28, 2003).4.4Warrant Indenture, dated as of February 14, 2006, between The Goldman Sachs Group, Inc. and The Bank of New York, as trustee (incorporated by reference to Exhibit 4.34 to the Registrant’s Post-Effective Amendment No. 3 to Form S-3, filed on March 1, 2006).4.5Senior Debt Indenture, dated as of December 4, 2007, among GS Finance Corp., as issuer, The Goldman Sachs Group, Inc., as guarantor, and The Bank of New York, as trustee (incorporated by reference to Exhibit 4.69 to the Registrant’s Post-Effective Amendment No. 10 to Form S-3, filed on December 4, 2007).\n\n# 4.6Senior Debt Indenture, dated as of July 16, 2008, between The Goldman Sachs Group, Inc. and The Bank of New York Mellon, as trustee (incorporated by reference to Exhibit 4.82 to the Registrant’s Post-Effective Amendment No. 11 to Form S-3 (No. 333-130074), filed on July 17, 2008).4.7Fourth Supplemental Indenture, dated as of December",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 9
+    }
+  },
+  {
+    "text": "corporated by reference to Exhibit 4.82 to the Registrant’s Post-Effective Amendment No. 11 to Form S-3 (No. 333-130074), filed on July 17, 2008).4.7Fourth Supplemental Indenture, dated as of December 31, 2016, between The Goldman Sachs Group, Inc. and The Bank of New York Mellon, as trustee, with respect to the Senior Debt Indenture, dated as of July 16, 2008 (incorporated by reference to Exhibit 4.1 to the Registrant’s Current Report on Form 8-K, filed on January 6, 2017).4.8Senior Debt Indenture, dated as of October 10, 2008, among GS Finance Corp., as issuer, The Goldman Sachs Group, Inc., as guarantor, and The Bank of New York Mellon, as trustee (incorporated by reference to Exhibit 4.70 to the Registrant’s Registration Statement on Form S-3 (No. 333-154173), filed on October 10, 2008).4.9First Supplemental Indenture, dated as of February 20, 2015, among GS Finance Corp., as issuer, The Goldman Sachs Group, Inc., as guarantor, and The Bank of New York Mellon, as trustee, with respect to the Senior Debt Indenture, dated as of October 10, 2008 (incorporated by reference to Exhibit 4.7 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014).4.1",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 10
+    }
+  },
+  {
+    "text": "ect to the Senior Debt Indenture, dated as of October 10, 2008 (incorporated by reference to Exhibit 4.7 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014).4.10Fourth Supplemental Indenture, dated as of August 21, 2018, among GS Finance Corp., as issuer, The Goldman Sachs Group, Inc., as guarantor, and The Bank of New York Mellon, as trustee, with respect to the Senior Debt Indenture, dated as of October 10, 2008 (incorporated by reference to Exhibit 4.1 to the Registrant’s Quarterly Report on Form 10‑Q for the period ended September 30, 2018).\n| 1 |\n\n4.11 Ninth Supplemental Subordinated Debt Indenture, dated as of May 20, 2015, between The Goldman Sachs Group, Inc. and The Bank of New York Mellon, as trustee, with respect to the Subordinated Debt Indenture, dated as of February 20, 2004 (incorporated by reference to Exhibit 4.1 to the Registrant’s Current Report on Form 8-K, filed on May 22, 2015).\n\n4.12 Tenth Supplemental Subordinated Debt Indenture, dated as of July 7, 2017, between The Goldman Sachs Group, Inc. and The Bank of New York Mellon, as trustee, with respect to the Subordinated Debt Indenture, dated as of February 20, 2004 (inc",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 11
+    }
+  },
+  {
+    "text": "enture, dated as of July 7, 2017, between The Goldman Sachs Group, Inc. and The Bank of New York Mellon, as trustee, with respect to the Subordinated Debt Indenture, dated as of February 20, 2004 (incorporated by reference to Exhibit 4.89 to the Registrant’s Registration Statement on Form S-3 (No. 333-219206), filed on July 10, 2017).\n\n4.13 Seventh Supplemental Indenture, dated as of July 1, 2020, among GS Finance Corp., as issuer, The Goldman Sachs Group, Inc., as guarantor, and The Bank of New York Mellon, as trustee, with respect to the Senior Debt Indenture, dated as of October 10, 2008 (incorporated by reference to Exhibit 4.69 to the Registrant’ s Registration Statement on Form S-3 (No. 333-239610), filed on July 1, 2020).\n\n4.14 Eighth Supplemental Indenture, dated as of October 14, 2020, among GS Finance Corp., as issuer, The Goldman Sachs Group, Inc., as guarantor, and The Bank of New York Mellon, as trustee, with respect to the Senior Debt Indenture, dated as of October 10, 2008 (incorporated by reference to Exhibit 4.1 to the Registrant’s Current Report on Form 8-K, filed on October 14, 2020).\n\nCertain instruments defining the rights of holders of long-term debt securitie",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 12
+    }
+  },
+  {
+    "text": "08 (incorporated by reference to Exhibit 4.1 to the Registrant’s Current Report on Form 8-K, filed on October 14, 2020).\n\nCertain instruments defining the rights of holders of long-term debt securities of the Registrant and its subsidiaries are omitted pursuant to Item 601(b)(4)(iii) of Regulation S‑K. The Registrant hereby undertakes to furnish to the SEC, upon request, copies of any such instruments.\n\n10.1 The Goldman Sachs Amended and Restated Stock Incentive Plan (2021) (incorporated by reference to Annex C to the Registrant’s Definitive Proxy Statement on Schedule 14A, filed on March 19, 2021). †\n\n10.2 The Goldman Sachs Partner Compensation Plan (incorporated by reference to Exhibit 10.18 to the Registrant’s Registration Statement on Form S-1 (No. 333-74449)). †\n\n10.3 The Goldman Sachs Amended and Restated Restricted Partner Compensation Plan (incorporated by reference to Exhibit 10.1 to the Registrant’s Quarterly Report on Form 10-Q for the period ended February 24, 2006). †\n\n10.4 Form of Employment Agreement for Participating Managing Directors (incorporated by reference to Exhibit 10.19 to the Registrant’s Registration Statement on Form S-1 (No. 333-75213)). †\n\n10.5 Form of",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 13
+    }
+  },
+  {
+    "text": "4 Form of Employment Agreement for Participating Managing Directors (incorporated by reference to Exhibit 10.19 to the Registrant’s Registration Statement on Form S-1 (No. 333-75213)). †\n\n10.5 Form of Agreement Relating to Noncompetition and Other Covenants (incorporated by reference to Exhibit 10.20 to the Registrant’s Registration Statement on Form S-1 (No. 333-75213)). †\n\n10.6 Amended and Restated Shareholders’ Agreement, effective as of December 31, 2019, among The Goldman Sachs Group, Inc. and various parties (incorporated by reference to Exhibit 10.6 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2019).\n\n10.7 Form of Amendment, dated November 27, 2004, to Agreement Relating to Noncompetition and Other Covenants, dated May 7, 1999 (incorporated by reference to Exhibit 10.32 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended November 26, 2004). †\n\n10.8 Form of Non-Employee Director RSU Award Agreement (pre-2015) (incorporated by reference to Exhibit 10.21 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.9 Ground Lease, dated August 23, 2005, between Battery Park City A",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 14
+    }
+  },
+  {
+    "text": "ated by reference to Exhibit 10.21 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.9 Ground Lease, dated August 23, 2005, between Battery Park City Authority d/b/a/ Hugh L. Carey Battery Park City Authority, as Landlord, and Goldman Sachs Headquarters LLC, as Tenant (incorporated by reference to Exhibit 10.1 to the Registrant’s Current Report on Form 8-K, filed on August 26, 2005).\n\n10.10 General Guarantee Agreement, dated January 30, 2006, made by The Goldman Sachs Group, Inc. relating to certain obligations of Goldman Sachs & Co. LLC (incorporated by reference to Exhibit 10.45 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended November 25, 2005).\n\n10.11 Goldman Sachs & Co. LLC Executive Life Insurance Policy and Certificate with Metropolitan Life Insurance Company for Participating Managing Directors (incorporated by reference to Exhibit 10.1 to the Registrant’s Quarterly Report on Form 10-Q for the period ended August 25, 2006). †\n\n10.12 Form of Goldman Sachs & Co. LLC Executive Life Insurance Policy with Pacific Life & Annuity Company for Participating Managing Directors, including policy specifications an",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 15
+    }
+  },
+  {
+    "text": "August 25, 2006). †\n\n10.12 Form of Goldman Sachs & Co. LLC Executive Life Insurance Policy with Pacific Life & Annuity Company for Participating Managing Directors, including policy specifications and form of restriction on Policy Owner’s Rights (incorporated by reference to Exhibit 10.2 to the Registrant’s Quarterly Report on Form 10-Q for the period ended August 25, 2006). †\n\n| 2 |\n\n10.13 Form of Second Amendment, dated November 25, 2006, to Agreement Relating to Noncompetition and Other Covenants, dated May 7, 1999, as amended effective November 27, 2004 (incorporated by reference to Exhibit 10.51 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended November 24, 2006). †\n\n10.14 Description of PMD Retiree Medical Program (incorporated by reference to Exhibit 10.20 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2021). †\n\n10.15 General Guarantee Agreement, dated December 1, 2008, made by The Goldman Sachs Group, Inc. relating to certain obligations of Goldman Sachs Bank USA (incorporated by reference to Exhibit 4.80 to the Registrant’s Post-Effective Amendment No. 2 to Form S‑3, filed on March 19, 2009).\n\n10.16 Form of One",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 16
+    }
+  },
+  {
+    "text": "to certain obligations of Goldman Sachs Bank USA (incorporated by reference to Exhibit 4.80 to the Registrant’s Post-Effective Amendment No. 2 to Form S‑3, filed on March 19, 2009).\n\n10.16 Form of One-Time RSU Award Agreement (pre-2015) (incorporated by reference to Exhibit 10.32 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.17 Amendments to Certain Non-Employee Director Equity Award Agreements (incorporated by reference to Exhibit 10.69 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended November 28, 2008). †\n\n10.18 Form of Year-End RSU Award Agreement (not fully vested) (pre-2015) (incorporated by reference to Exhibit 10.36 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.19 Form of Year-End RSU Award Agreement (fully vested) (pre-2015) (incorporated by reference to Exhibit 10.37 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.20 Form of Year-End RSU Award Agreement (Base and/or Supplemental) (pre-2015) (incorporated by reference to Exhibit 10.38 to the Registrant’s Annual Report on Form 10-K for the fiscal",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 17
+    }
+  },
+  {
+    "text": "1, 2014). †\n\n10.20 Form of Year-End RSU Award Agreement (Base and/or Supplemental) (pre-2015) (incorporated by reference to Exhibit 10.38 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.21 Form of Year-End Restricted Stock Award Agreement (fully vested) (pre-2015) (incorporated by reference to Exhibit 10.41 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2013). †\n\n10.22 Form of Year-End Restricted Stock Award Agreement (Base and/or Supplemental) (pre-2015) (incorporated by reference to Exhibit 10.41 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.23 Form of Fixed Allowance RSU Award Agreement (pre-2015) (incorporated by reference to Exhibit 10.43 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2014). †\n\n10.24 Form of Deed of Gift (incorporated by reference to Exhibit 10.1 to the Registrant’s Quarterly Report on Form 10-Q for the period ended June 30, 2010). †\n\n10.25 The Goldman Sachs Long-Term Performance Incentive Plan, dated December 17, 2010 (incorporated by reference to Exhibit 10.1 to the Registrant’s",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 18
+    }
+  },
+  {
+    "text": "Form 10-Q for the period ended June 30, 2010). †\n\n10.25 The Goldman Sachs Long-Term Performance Incentive Plan, dated December 17, 2010 (incorporated by reference to Exhibit 10.1 to the Registrant’s Current Report on Form 8-K, filed on December 23, 2010). †\n\n10.26 Form of Performance-Based Restricted Stock Unit Award Agreement (pre-2015) (incorporated by reference to Exhibit 10.2 to the Registrant’s Current Report on Form 8-K, filed on December 23, 2010). †\n\n10.27 Form of Performance-Based Option Award Agreement (incorporated by reference to Exhibit 10.3 to the Registrant’s Current Report on Form 8-K, filed on December 23, 2010). †\n\n10.28 Form of Performance-Based Cash Compensation Award Agreement (pre-2015) (incorporated by reference to Exhibit 10.4 to the Registrant’s Current Report on Form 8-K, filed on December 23, 2010). †\n\n10.29 Amended and Restated General Guarantee Agreement, dated November 21, 2011, made by The Goldman Sachs Group, Inc. relating to certain obligations of Goldman Sachs Bank USA (incorporated by reference to Exhibit 4.1 to the Registrant’s Current Report on Form 8-K, filed on November 21, 2011).\n\n10.30 Form of Aircraft Time Sharing Agreement (incorporated b",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 19
+    }
+  },
+  {
+    "text": "man Sachs Bank USA (incorporated by reference to Exhibit 4.1 to the Registrant’s Current Report on Form 8-K, filed on November 21, 2011).\n\n10.30 Form of Aircraft Time Sharing Agreement (incorporated by reference to Exhibit 10.61 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2011). †\n\n10.31 Form of Non-Employee Director RSU Award Agreement.† *\n\n10.32 Form of Non-Employee Director RSU Award Agreement (Cash-Settled) .†*\n\n10.33 Form of One-Time/Year-End RSU Award Agreement.† *\n\n10.34 Form of Year-End RSU Award Agreement (not fully vested).† *\n\n| 3 |\n\n10.35 Form of Year-End RSU Award Agreement (fully vested).† *\n\n10.36 Form of Year-End RSU Award Agreement (Base (not fully vested) and/or Supplemental).† *\n\n10.37 Form of Year-End Short-Term RSU Award Agreement.† *\n\n10.38 Form of Year-End Restricted Stock Award Agreement (incorporated by reference to Exhibit 10.46 to the Registrant’ s Annual Report on Form 10-K for the fiscal year ended December 31, 2020). †\n\n10.39 Form of Year-End Restricted Stock Award Agreement (fully vested) (incorporated by reference to Exhibit 10.53 to the Registrant’ s Annual Report on Form 10-K for the fiscal year ended Decem",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 20
+    }
+  },
+  {
+    "text": "). †\n\n10.39 Form of Year-End Restricted Stock Award Agreement (fully vested) (incorporated by reference to Exhibit 10.53 to the Registrant’ s Annual Report on Form 10-K for the fiscal year ended December 31, 2017). †\n\n10.40 Form of Year-End Short-Term Restricted Stock Award Agreement (incorporated by reference to Exhibit 10.57 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2015). †\n\n10.41 Form of Fixed Allowance RSU Award Agreement.† *\n\n10.42 Form of Fixed Allowance Restricted Stock Award Agreement.† *\n\n10.43 Form of Fixed Allowance Deferred Cash Award Agreement (incorporated by reference to Exhibit 10.59 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2015). †\n\n10.44 Form of Performance-Based Restricted Stock Unit Award Agreement (fully vested).† *\n\n10.45 Form of Performance-Based Restricted Stock Unit Award Agreement (not fully vested).† *\n\n10.46 Form of Performance-Based Cash Compensation Award Agreement (incorporated by reference to Exhibit 10.61 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2015). †\n\n10.47 Form of Signature Card for Equity Awards.† *\n\n10.48 Amen",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 21
+    }
+  },
+  {
+    "text": "ncorporated by reference to Exhibit 10.61 to the Registrant’s Annual Report on Form 10-K for the fiscal year ended December 31, 2015). †\n\n10.47 Form of Signature Card for Equity Awards.† *\n\n10.48 Amended and Restated General Guarantee Agreement, dated September 28, 2018, made by The Goldman Sachs Group, Inc. relating to certain obligations of Goldman Sachs Bank USA (incorporated by reference to Exhibit 4.1 to the Registrant’s Current Report on Form 8-K, filed on September 28, 2018).\n\n10.49 Amended and Restated General Guarantee Agreement, dated September 28, 2018, made by The Goldman Sachs Group, Inc. relating to certain obligations of Goldman Sachs & Co. LLC (incorporated by reference to Exhibit 99.1 to the Registrant’s Current Report on Form 8-K, filed on September 28, 2018).\n\n10.50 Lease, dated August 17, 2018, between Farringdon Street Partners Limited and Farringdon Street (Nominee) Limited, as Landlord, and Goldman Sachs International, as Tenant (incorporated by reference to Exhibit 10.3 to the Registrant’s Quarterly Report on Form 10‑Q for the period ended September 30, 2018).\n\n21.1 List of significant subsidiaries of The Goldman Sachs Group, Inc.*\n\n22.1 Issuers of guarantee",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 22
+    }
+  },
+  {
+    "text": "bit 10.3 to the Registrant’s Quarterly Report on Form 10‑Q for the period ended September 30, 2018).\n\n21.1 List of significant subsidiaries of The Goldman Sachs Group, Inc.*\n\n22.1 Issuers of guaranteed securities (incorporated by reference to Exhibit 22.1 to the Registrant’ s Post-Effective Amendment No. 1 to Form S-3, filed on February 18, 2021).\n\n23.1 Consent of Independent Registered Public Accounting Firm.*\n\n31.1 Rule 13a-14(a) Certifications.**\n\n32.1 Section 1350 Certifications (This information is furnished and not filed for purposes of Sections 11 and 12 of the Securities Act of 1933 and Section 18 of the Securities Exchange Act of 1934).**\n\n97.1 The Goldman Sachs Group, Inc. Clawback Policy, effective as of December 1, 2023.*\n\n101 Pursuant to Rules 405 and 406 of Regulation S‑T, the following information is formatted in iXBRL (Inline eXtensible Business Reporting Language): (i) the Consolidated Statements of Earnings for the years ended December 31, 2023, December 31, 2022 and December 31, 2021, (ii) the Consolidated Statements of Comprehensive Income for the years ended December 31, 2023, December 31, 2022 and December 31, 2021, (iii) the Consolidated Balance Sheets as of",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 23
+    }
+  },
+  {
+    "text": "December 31, 2021, (ii) the Consolidated Statements of Comprehensive Income for the years ended December 31, 2023, December 31, 2022 and December 31, 2021, (iii) the Consolidated Balance Sheets as of December 31, 2023 and December 31, 2022, (iv) the Consolidated Statements of Changes in Shareholders’ Equity for the years ended December 31, 2023, December 31, 2022 and December 31, 2021, (v) the Consolidated Statements of Cash Flows for the years ended December 31, 2023, December 31, 2022 and December 31, 2021, (vi) the notes to the Consolidated Financial Statements and (vii) the cover page. *\n\n104 Cover Page Interactive Data File (formatted in iXBRL in Exhibit 101). *\n\n† This exhibit is a management contract or a compensatory plan or arrangement.\n\n* Previously filed.\n\n** Filed herewith.\n\n| 4 |\n\n### SIGNATURES\nPursuant to the requirements of Section 13 or 15(d) of the Securities Exchange Act of 1934, the Registrant has duly caused this Amendment to be signed on its behalf by the undersigned, thereunto duly authorized.\n\nTHE GOLDMAN SACHS GROUP, INC.\n\n| By:    |     | /s/ |     | Sheara J. Fredman             |\n| Name:  |     |     |     | Sheara J. Fredman             |\n| Title: |",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 24
+    }
+  },
+  {
+    "text": "ned, thereunto duly authorized.\n\nTHE GOLDMAN SACHS GROUP, INC.\n\n| By:    |     | /s/ |     | Sheara J. Fredman             |\n| Name:  |     |     |     | Sheara J. Fredman             |\n| Title: |     |     |     | Chief Accounting Officer      |\n|        |     |     |     | -Principal Accounting Officer |\n\nDate: February 27, 2024\n\n| II-1 |",
+    "metadata": {
+      "ticker": "GS",
+      "form": "10-K",
+      "filing_date": "2024-02-28",
+      "accession": "0000886982-24-000012",
+      "company": "GOLDMAN SACHS GROUP INC",
+      "chunk_index": 25
+    }
+  }
+]
