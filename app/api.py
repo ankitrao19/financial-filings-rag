@@ -16,6 +16,8 @@ Run (from the project root):
     open http://localhost:8000/docs
 """
 
+import logging
+import os
 import sys
 import time
 from contextlib import asynccontextmanager
@@ -37,26 +39,37 @@ from evaluate_rag import ANSWER_MODEL, ANSWER_PROMPTS, TOP_K, generate_answer, l
 from filing_inference import infer_filing, load_period_map  # noqa: E402
 from paths import CHROMA_PATH  # noqa: E402
 
+log = logging.getLogger("rag.api")
+
 EMBED_MODEL = "nomic"
 SNIPPET_CHARS = 400
 
 state = {}
 
 
-@asynccontextmanager
-async def lifespan(_app):
-    # load once: the nomic model takes a few seconds and ~0.5 GB, far too slow per request
+def load_state():
+    """Load models + index once (the nomic model takes a few seconds and ~0.5 GB, far too slow per request).
+    Called by the lifespan, or directly when this app is mounted inside another one (lifespans of
+    mounted sub-apps don't run — see serve.py)."""
+    if state:
+        return
     embed_cfg = EMBED_MODELS[EMBED_MODEL]
     collection = chromadb.PersistentClient(path=str(CHROMA_PATH)).get_collection(embed_cfg["collection"])
     period_map = load_period_map()
     state.update(
         embed_cfg=embed_cfg,
         collection=collection,
-        embedder=load_embedder(embed_cfg),
+        # EMBED_DEVICE=cpu on HF ZeroGPU: it reports cuda as available outside @spaces.GPU functions
+        embedder=load_embedder(embed_cfg, device=os.getenv("EMBED_DEVICE")),
         period_map=period_map,
         tickers=sorted(period_map["fiscal_year_end_month"]),
         llm=OpenAI(),
     )
+
+
+@asynccontextmanager
+async def lifespan(_app):
+    load_state()
     yield
     # spans are exported in a background batch; flush so nothing is lost on shutdown
     langfuse.flush()
@@ -179,9 +192,11 @@ def ask(req: AskRequest):
             try:
                 answer = generate_answer(state["llm"], "\n\n---\n\n".join(docs), req.question, req.prompt)
             except Exception as e:
+                # full error goes to logs + Langfuse only: provider errors can echo parts of the API key
+                log.exception("answer model failed")
                 span.update(level="ERROR", status_message=str(e))
                 root.update(level="ERROR", status_message=str(e))
-                raise HTTPException(502, f"answer model failed: {e}")
+                raise HTTPException(502, "answer model failed — see server logs")
             span.update(output=answer)
 
         refused = looks_like_refusal(answer)

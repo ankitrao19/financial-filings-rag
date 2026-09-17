@@ -73,7 +73,9 @@ with gr.Blocks(title="Filings RAG") as demo:
     with gr.Row():
         with gr.Column(scale=3):
             question = gr.Textbox(label="Question", lines=2)
-            ticker = gr.Dropdown(choices=load_tickers(), label="Company", value=None)
+            # real choices are filled on page load (demo.load below): at import time the API may not be up yet.
+            # start with the example tickers so gr.Examples values are valid choices
+            ticker = gr.Dropdown(choices=sorted({t for _, t in EXAMPLES}), label="Company", value=None)
             with gr.Accordion("Retrieval settings", open=False):
                 k = gr.Slider(1, 50, value=15, step=1, label="Chunks (k)")
                 filing = gr.Radio(["inferred", "none"], value="inferred", label="Filing filter")
@@ -96,6 +98,7 @@ with gr.Blocks(title="Filings RAG") as demo:
     question.submit(ask, inputs, outputs)
     up.click(lambda t: send_feedback(t, 1), trace_id, feedback_msg)
     down.click(lambda t: send_feedback(t, 0), trace_id, feedback_msg)
+    demo.load(lambda: gr.update(choices=load_tickers()), None, ticker)
 
 
 if __name__ == "__main__":

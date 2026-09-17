@@ -75,8 +75,9 @@ DEFAULT_EMBED = "minilm"
 ADD_BATCH = 500
 
 
-def load_embedder(cfg):
-    return SentenceTransformer(cfg["model"], trust_remote_code=cfg["trust_remote_code"])
+def load_embedder(cfg, device=None):
+    """device=None lets sentence-transformers pick (cuda/mps/cpu); pass "cpu" to pin it."""
+    return SentenceTransformer(cfg["model"], trust_remote_code=cfg["trust_remote_code"], device=device)
 
 
 # ---------------------------------------------------------------------------
