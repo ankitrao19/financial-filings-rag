@@ -85,7 +85,7 @@ Live demo: <https://hereicome-filings-rag.hf.space> (UI at `/`, API docs at `/ra
 
 ## Observability
 
-Every query is traced end-to-end (retrieval → generation) with token/cost/latency per step via Langfuse. [Langfuse trace of one query](docs/images/langfuselogs.png)
+Every query is traced end-to-end (retrieval → generation) with token/cost/latency per step via Langfuse. ![Langfuse trace of one query](docs/images/langfuselogs.png)
 
 ```
 rag-query                  chain       question + ticker -> answer          1.79s  $0.000752
