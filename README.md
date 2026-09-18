@@ -81,7 +81,21 @@ venv/bin/uvicorn app.api:app --port 8000     # API, docs at http://localhost:800
 venv/bin/python app/ui.py                     # UI at http://localhost:7860
 ```
 
-Langfuse tracing turns on when `LANGFUSE_PUBLIC_KEY` / `LANGFUSE_SECRET_KEY` are set in `.env`.
+Live demo: <https://hereicome-filings-rag.hf.space> (UI at `/`, API docs at `/rag/docs`). Deploy with `venv/bin/python deploy/deploy_space.py --watch`.
+
+## Observability
+
+Every query is traced end-to-end (retrieval → generation) with token/cost/latency per step via Langfuse. [Langfuse trace of one query](docs/images/langfuselogs.png)
+
+```
+rag-query                  chain       question + ticker -> answer          1.79s  $0.000752
+├── filing-inference       span        question text -> filing_date filter  0.00s
+├── retrieval              retriever   top-k chunks + distances             0.22s
+└── generate-answer        span                                             1.56s
+    └── OpenAI-generation  generation  gpt-4o-mini, 5,395 -> 33 tokens      1.56s  $0.000752
+```
+
+Tracing turns on when `LANGFUSE_PUBLIC_KEY` / `LANGFUSE_SECRET_KEY` are set in `.env` (or in the Space secrets); without them the API runs unchanged with tracing disabled. Traces carry the run config as tags (`embed:nomic`, `filing:inferred`, `prompt:v1`), a session id per UI session, and 👍/👎 from the UI as a `user-feedback` score — so bad answers can be filtered out and folded back into the eval set.
 
 ## Recording a new experiment
 
