@@ -4,3 +4,4 @@ __pycache__/
 .env
 data/chromadb/
 .ipynb_checkpoints/
+data/chromadb-deploy
