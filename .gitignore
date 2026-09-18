@@ -4,7 +4,4 @@ __pycache__/
 .env
 data/chromadb/
 .ipynb_checkpoints/
-
-# deploy build output + exported vector store
-deploy/.build/
-data/chromadb-deploy/
+data/chromadb-deploy
