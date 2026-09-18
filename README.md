@@ -17,6 +17,11 @@ agentic/
 │   ├── filing_inference.py    ← works out which filing a question is about ("fiscal 2024" → that 10-K)
 │   └── evaluate_rag.py        ← step 2: retrieve → answer → grade all 45 questions → metrics
 │
+├── app/                       ← serving layer (wraps pipeline/, no changes to it)
+│   ├── api.py                 ← FastAPI: POST /ask (retrieve → generate), /feedback, /health, /tickers
+│   ├── tracing.py             ← Langfuse client + traced OpenAI client
+│   └── ui.py                  ← Gradio UI, calls the API over HTTP
+│
 ├── tests/
 │   └── test_filing_inference.py
 │
@@ -67,6 +72,16 @@ python pipeline/evaluate_rag.py --embed-model nomic --filing inferred --limit 3 
 ```
 
 Useful `evaluate_rag.py` flags: `--embed-model minilm|nomic`, `--filing none|oracle|inferred`, `--prompt v1|v2`, `--k 15`, `--limit N`.
+
+## Run the API + UI
+
+```bash
+venv/bin/pip install -r requirements.txt
+venv/bin/uvicorn app.api:app --port 8000     # API, docs at http://localhost:8000/docs
+venv/bin/python app/ui.py                     # UI at http://localhost:7860
+```
+
+Langfuse tracing turns on when `LANGFUSE_PUBLIC_KEY` / `LANGFUSE_SECRET_KEY` are set in `.env`.
 
 ## Recording a new experiment
 
